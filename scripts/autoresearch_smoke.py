@@ -88,7 +88,8 @@ def _has_mlflow_metrics(algo: str, env: str, stage: str, since_seconds: int = 18
     for attempt in range(1, retries + 1):
         try:
             import mlflow
-            client = mlflow.tracking.MlflowClient("http://localhost:5555")
+            client = mlflow.tracking.MlflowClient(
+                os.environ.get("MLFLOW_TRACKING_URI", "http://localhost:5555"))
             exp = client.get_experiment_by_name("latent_cep_baselines_smoke")
             if exp is None:
                 return False
