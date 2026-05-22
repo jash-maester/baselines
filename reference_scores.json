@@ -1,0 +1,119 @@
+{
+  "_doc": "Original-paper-reported D4RL-normalized scores per (algo, env_d4rl_name). The /baselines/ comparison axis is: OUR Minari-normalized score vs THESE D4RL-normalized paper numbers — same 0–100 scale, different dataset under the hood (Minari port vs original D4RL). A clean match means Minari is a faithful drop-in for D4RL; a discrepancy lives in either the port or in our reproduction. Used by scripts/progress_dashboard.py. NOTE on units: most modern offline-RL papers report D4RL-normalized scores; if a future entry sources from a paper that reports raw episodic return instead, set its `_units` to `raw_return` and convert before comparing. `null` = paper does not report this combination (most D4RL papers omit Humanoid). Edit freely; this is documentation, not a target.",
+  "_warn_threshold": 5.0,
+  "_fail_threshold": 15.0,
+  "_units": {
+    "bc":       "d4rl_normalized",
+    "cql":      "d4rl_normalized",
+    "iql":      "d4rl_normalized",
+    "td3bc":    "d4rl_normalized",
+    "dt":       "d4rl_normalized",
+    "diffuser": "d4rl_normalized",
+    "dql":      "d4rl_normalized",
+    "eda":      "d4rl_normalized",
+    "qgpo":     "d4rl_normalized"
+  },
+  "_sources": {
+    "bc":       "D4RL paper, Fu et al. 2020 (also CORL reproduction)",
+    "cql":      "CQL paper, Kumar et al. 2020 / CORL reproduction",
+    "iql":      "IQL paper, Kostrikov et al. 2021, Table 1",
+    "td3bc":    "TD3+BC paper, Fujimoto et al. 2021, Table 1",
+    "dt":       "Decision Transformer paper, Chen et al. 2021, Table 2",
+    "diffuser": "Diffuser paper, Janner et al. 2022, Table 1",
+    "dql":      "Diffusion-QL paper, Wang et al. 2023, Table 1",
+    "eda":      "Efficient Diffusion Alignment paper, Chen et al. 2024",
+    "qgpo":     "QGPO paper, Lu et al. 2023, Table 1"
+  },
+  "scores": {
+    "bc": {
+      "halfcheetah-medium-v0": 42.6,
+      "halfcheetah-expert-v0": 91.8,
+      "hopper-medium-v0":      52.9,
+      "hopper-expert-v0":     107.7,
+      "walker2d-medium-v0":    75.3,
+      "walker2d-expert-v0":   107.5,
+      "humanoid-medium-v0":    null,
+      "humanoid-expert-v0":    null
+    },
+    "cql": {
+      "halfcheetah-medium-v0": 44.0,
+      "halfcheetah-expert-v0": 91.6,
+      "hopper-medium-v0":      58.5,
+      "hopper-expert-v0":     105.6,
+      "walker2d-medium-v0":    72.5,
+      "walker2d-expert-v0":   108.8,
+      "humanoid-medium-v0":    null,
+      "humanoid-expert-v0":    null
+    },
+    "iql": {
+      "halfcheetah-medium-v0": 47.4,
+      "halfcheetah-expert-v0": 95.5,
+      "hopper-medium-v0":      66.3,
+      "hopper-expert-v0":     113.3,
+      "walker2d-medium-v0":    78.3,
+      "walker2d-expert-v0":   110.4,
+      "humanoid-medium-v0":    null,
+      "humanoid-expert-v0":    null
+    },
+    "td3bc": {
+      "halfcheetah-medium-v0": 48.3,
+      "halfcheetah-expert-v0": 96.7,
+      "hopper-medium-v0":      59.3,
+      "hopper-expert-v0":     112.4,
+      "walker2d-medium-v0":    83.7,
+      "walker2d-expert-v0":   110.2,
+      "humanoid-medium-v0":    null,
+      "humanoid-expert-v0":    null
+    },
+    "dt": {
+      "halfcheetah-medium-v0": 42.6,
+      "halfcheetah-expert-v0": 91.0,
+      "hopper-medium-v0":      67.6,
+      "hopper-expert-v0":     110.6,
+      "walker2d-medium-v0":    74.0,
+      "walker2d-expert-v0":   108.1,
+      "humanoid-medium-v0":    null,
+      "humanoid-expert-v0":    null
+    },
+    "diffuser": {
+      "halfcheetah-medium-v0": 42.8,
+      "halfcheetah-expert-v0": 88.9,
+      "hopper-medium-v0":      74.3,
+      "hopper-expert-v0":     104.3,
+      "walker2d-medium-v0":    79.6,
+      "walker2d-expert-v0":   106.9,
+      "humanoid-medium-v0":    null,
+      "humanoid-expert-v0":    null
+    },
+    "dql": {
+      "halfcheetah-medium-v0": 51.1,
+      "halfcheetah-expert-v0": 96.8,
+      "hopper-medium-v0":      90.5,
+      "hopper-expert-v0":     111.1,
+      "walker2d-medium-v0":    87.0,
+      "walker2d-expert-v0":   110.1,
+      "humanoid-medium-v0":    null,
+      "humanoid-expert-v0":    null
+    },
+    "eda": {
+      "halfcheetah-medium-v0": 56.7,
+      "halfcheetah-expert-v0": 94.5,
+      "hopper-medium-v0":      76.5,
+      "hopper-expert-v0":     112.7,
+      "walker2d-medium-v0":    83.0,
+      "walker2d-expert-v0":   109.3,
+      "humanoid-medium-v0":    null,
+      "humanoid-expert-v0":    null
+    },
+    "qgpo": {
+      "halfcheetah-medium-v0": 54.1,
+      "halfcheetah-expert-v0": 93.5,
+      "hopper-medium-v0":      98.0,
+      "hopper-expert-v0":     108.0,
+      "walker2d-medium-v0":    86.0,
+      "walker2d-expert-v0":   110.7,
+      "humanoid-medium-v0":    null,
+      "humanoid-expert-v0":    null
+    }
+  }
+}

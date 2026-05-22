@@ -1,0 +1,26 @@
+[project]
+name = "compat-shim"
+version = "0.1.0"
+description = "Compat layer shadowing gym/d4rl/comet_ml so unmodified baseline repos run on Gymnasium + Minari."
+requires-python = ">=3.11"
+dependencies = [
+    "gymnasium[mujoco]>=1.0",
+    "minari>=0.5",
+    "mujoco>=3.1",
+    "numpy<2.0",
+    # RTX 5090 is sm_120 (Blackwell); only torch>=2.7 ships sm_120 kernels.
+    # Plan's original `<2.7` cap was written before considering Blackwell.
+    "torch>=2.7",
+    "mlflow>=2.9",
+    "h5py",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

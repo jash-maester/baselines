@@ -1,0 +1,21 @@
+[submodule "repos/CEP-energy-guided-diffusion"]
+	path = repos/CEP-energy-guided-diffusion
+	url = git@github.com:jash-maester/CEP-energy-guided-diffusion.git
+[submodule "repos/CORL"]
+	path = repos/CORL
+	url = git@github.com:jash-maester/CORL.git
+[submodule "repos/decision-diffuser"]
+	path = repos/decision-diffuser
+	url = git@github.com:jash-maester/decision-diffuser.git
+[submodule "repos/diffuser"]
+	path = repos/diffuser
+	url = git@github.com:jash-maester/diffuser.git
+[submodule "repos/Diffusion-Policies-for-Offline-RL"]
+	path = repos/Diffusion-Policies-for-Offline-RL
+	url = git@github.com:jash-maester/Diffusion-Policies-for-Offline-RL.git
+[submodule "repos/Efficient-Diffusion-Alignment"]
+	path = repos/Efficient-Diffusion-Alignment
+	url = git@github.com:jash-maester/Efficient-Diffusion-Alignment.git
+[submodule "repos/ldcq"]
+	path = repos/ldcq
+	url = git@github.com:jash-maester/LDCQ.git

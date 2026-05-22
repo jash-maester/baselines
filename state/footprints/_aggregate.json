@@ -1,0 +1,286 @@
+{
+  "generated_at": "2026-05-19T14:43:37.840569+00:00",
+  "per_method": [
+    {
+      "key": "bc:halfcheetah-medium-v0:full",
+      "status": "green",
+      "vram_proc_peak_gb": 2.25390625,
+      "vram_proc_steady_gb": 2.25390625,
+      "rss_peak_gb": 1.7595176696777344,
+      "rss_steady_gb": 1.7288761138916016,
+      "gpu_util_peak_pct": 0,
+      "gpu_util_steady_pct": 0.0,
+      "n_samples": 4
+    },
+    {
+      "key": "cql:halfcheetah-medium-v0:full",
+      "status": "green",
+      "vram_proc_peak_gb": 2.2890625,
+      "vram_proc_steady_gb": 2.2890625,
+      "rss_peak_gb": 2.190357208251953,
+      "rss_steady_gb": 2.1903419494628906,
+      "gpu_util_peak_pct": 3,
+      "gpu_util_steady_pct": 0,
+      "n_samples": 48
+    },
+    {
+      "key": "iql:halfcheetah-medium-v0:full",
+      "status": "green",
+      "vram_proc_peak_gb": 2.2578125,
+      "vram_proc_steady_gb": 2.2578125,
+      "rss_peak_gb": 2.0416641235351562,
+      "rss_steady_gb": 2.041269302368164,
+      "gpu_util_peak_pct": 1,
+      "gpu_util_steady_pct": 1.0,
+      "n_samples": 7
+    },
+    {
+      "key": "td3bc:halfcheetah-medium-v0:full",
+      "status": "green",
+      "vram_proc_peak_gb": 2.2578125,
+      "vram_proc_steady_gb": 2.2578125,
+      "rss_peak_gb": 1.8687515258789062,
+      "rss_steady_gb": 1.8673324584960938,
+      "gpu_util_peak_pct": 1,
+      "gpu_util_steady_pct": 0.5,
+      "n_samples": 4
+    },
+    {
+      "key": "dt:halfcheetah-medium-v0:full",
+      "status": "green",
+      "vram_proc_peak_gb": 8.4609375,
+      "vram_proc_steady_gb": 8.4609375,
+      "rss_peak_gb": 5.231834411621094,
+      "rss_steady_gb": 5.231616973876953,
+      "gpu_util_peak_pct": 32,
+      "gpu_util_steady_pct": 8.0,
+      "n_samples": 9
+    },
+    {
+      "key": "diffuser:halfcheetah-medium-v0:full",
+      "status": "green",
+      "vram_proc_peak_gb": 0.740234375,
+      "vram_proc_steady_gb": 0.3701171875,
+      "rss_peak_gb": 0.033672332763671875,
+      "rss_steady_gb": 0.016836166381835938,
+      "gpu_util_peak_pct": 0,
+      "gpu_util_steady_pct": 0.0,
+      "n_samples": 2
+    },
+    {
+      "key": "dql:halfcheetah-medium-v0:full",
+      "status": "green",
+      "vram_proc_peak_gb": 0.671875,
+      "vram_proc_steady_gb": 0.671875,
+      "rss_peak_gb": 2.064434051513672,
+      "rss_steady_gb": 2.062427520751953,
+      "gpu_util_peak_pct": 33,
+      "gpu_util_steady_pct": 32,
+      "n_samples": 48
+    },
+    {
+      "key": "ldcq:halfcheetah-medium-v0:skills",
+      "status": "skipped",
+      "vram_proc_peak_gb": 1.224609375,
+      "vram_proc_steady_gb": 1.224609375,
+      "rss_peak_gb": 9.351909637451172,
+      "rss_steady_gb": 9.351810455322266,
+      "gpu_util_peak_pct": 78,
+      "gpu_util_steady_pct": 56.0,
+      "n_samples": 17
+    },
+    {
+      "key": "ldcq:halfcheetah-medium-v0:collect",
+      "status": "skipped",
+      "vram_proc_peak_gb": 1.01171875,
+      "vram_proc_steady_gb": 1.01171875,
+      "rss_peak_gb": 11.877765655517578,
+      "rss_steady_gb": 11.358356475830078,
+      "gpu_util_peak_pct": 76,
+      "gpu_util_steady_pct": 63.0,
+      "n_samples": 102
+    },
+    {
+      "key": "ldcq:halfcheetah-medium-v0:diffusion",
+      "status": "skipped",
+      "vram_proc_peak_gb": 0.6484375,
+      "vram_proc_steady_gb": 0.6484375,
+      "rss_peak_gb": 2.0627059936523438,
+      "rss_steady_gb": 2.062702178955078,
+      "gpu_util_peak_pct": 36,
+      "gpu_util_steady_pct": 32,
+      "n_samples": 26
+    },
+    {
+      "key": "ldcq:halfcheetah-medium-v0:q_net",
+      "status": "skipped",
+      "vram_proc_peak_gb": 0.0,
+      "vram_proc_steady_gb": 0.0,
+      "rss_peak_gb": 2.457439422607422,
+      "rss_steady_gb": 2.353717803955078,
+      "gpu_util_peak_pct": 0,
+      "gpu_util_steady_pct": 0,
+      "n_samples": 48
+    },
+    {
+      "key": "eda:halfcheetah-medium-v0:behavior",
+      "status": "green",
+      "vram_proc_peak_gb": 1.2109375,
+      "vram_proc_steady_gb": 1.2109375,
+      "rss_peak_gb": 1.7691268920898438,
+      "rss_steady_gb": 1.7691268920898438,
+      "gpu_util_peak_pct": 75,
+      "gpu_util_steady_pct": 67,
+      "n_samples": 48
+    },
+    {
+      "key": "eda:halfcheetah-medium-v0:critic",
+      "status": "green",
+      "vram_proc_peak_gb": 0.986328125,
+      "vram_proc_steady_gb": 0.986328125,
+      "rss_peak_gb": 1.9429893493652344,
+      "rss_steady_gb": 1.9159507751464844,
+      "gpu_util_peak_pct": 30,
+      "gpu_util_steady_pct": 26,
+      "n_samples": 48
+    },
+    {
+      "key": "eda:halfcheetah-medium-v0:finetune",
+      "status": "green",
+      "vram_proc_peak_gb": 2.390625,
+      "vram_proc_steady_gb": 2.390625,
+      "rss_peak_gb": 2.426280975341797,
+      "rss_steady_gb": 2.4168777465820312,
+      "gpu_util_peak_pct": 88,
+      "gpu_util_steady_pct": 79,
+      "n_samples": 48
+    },
+    {
+      "key": "qgpo:halfcheetah-medium-v0:behavior",
+      "status": "green",
+      "vram_proc_peak_gb": 1.099609375,
+      "vram_proc_steady_gb": 1.099609375,
+      "rss_peak_gb": 1.8001747131347656,
+      "rss_steady_gb": 1.7932395935058594,
+      "gpu_util_peak_pct": 32,
+      "gpu_util_steady_pct": 17,
+      "n_samples": 48
+    },
+    {
+      "key": "qgpo:halfcheetah-medium-v0:critic",
+      "status": "green",
+      "vram_proc_peak_gb": 1.640625,
+      "vram_proc_steady_gb": 1.263671875,
+      "rss_peak_gb": 2.3999061584472656,
+      "rss_steady_gb": 1.9612197875976562,
+      "gpu_util_peak_pct": 80,
+      "gpu_util_steady_pct": 70,
+      "n_samples": 48
+    },
+    {
+      "key": "ldcq:humanoid-medium-v0:skills",
+      "status": "skipped",
+      "vram_proc_peak_gb": null,
+      "vram_proc_steady_gb": null,
+      "rss_peak_gb": null,
+      "rss_steady_gb": null,
+      "gpu_util_peak_pct": null,
+      "gpu_util_steady_pct": null,
+      "n_samples": null
+    },
+    {
+      "key": "eda:humanoid-medium-v0:behavior",
+      "status": "green",
+      "vram_proc_peak_gb": 7.220703125,
+      "vram_proc_steady_gb": 7.220703125,
+      "rss_peak_gb": 3.7331390380859375,
+      "rss_steady_gb": 3.733135223388672,
+      "gpu_util_peak_pct": 75,
+      "gpu_util_steady_pct": 73.5,
+      "n_samples": 49
+    },
+    {
+      "key": "qgpo:humanoid-medium-v0:behavior",
+      "status": "green",
+      "vram_proc_peak_gb": 3.615234375,
+      "vram_proc_steady_gb": 3.615234375,
+      "rss_peak_gb": 6.176910400390625,
+      "rss_steady_gb": 3.7618865966796875,
+      "gpu_util_peak_pct": 27,
+      "gpu_util_steady_pct": 13,
+      "n_samples": 48
+    }
+  ],
+  "per_algo_max_across_stages": {
+    "bc": {
+      "vram_peak_gb": 2.25390625,
+      "vram_steady_gb": 2.25390625,
+      "rss_peak_gb": 1.7595176696777344,
+      "gpu_util_steady_pct": 0.0,
+      "n_attempts": 1
+    },
+    "cql": {
+      "vram_peak_gb": 2.2890625,
+      "vram_steady_gb": 2.2890625,
+      "rss_peak_gb": 2.190357208251953,
+      "gpu_util_steady_pct": 0.0,
+      "n_attempts": 1
+    },
+    "iql": {
+      "vram_peak_gb": 2.2578125,
+      "vram_steady_gb": 2.2578125,
+      "rss_peak_gb": 2.0416641235351562,
+      "gpu_util_steady_pct": 1.0,
+      "n_attempts": 1
+    },
+    "td3bc": {
+      "vram_peak_gb": 2.2578125,
+      "vram_steady_gb": 2.2578125,
+      "rss_peak_gb": 1.8687515258789062,
+      "gpu_util_steady_pct": 0.5,
+      "n_attempts": 1
+    },
+    "dt": {
+      "vram_peak_gb": 8.4609375,
+      "vram_steady_gb": 8.4609375,
+      "rss_peak_gb": 5.231834411621094,
+      "gpu_util_steady_pct": 8.0,
+      "n_attempts": 1
+    },
+    "diffuser": {
+      "vram_peak_gb": 0.740234375,
+      "vram_steady_gb": 0.3701171875,
+      "rss_peak_gb": 0.033672332763671875,
+      "gpu_util_steady_pct": 0.0,
+      "n_attempts": 1
+    },
+    "dql": {
+      "vram_peak_gb": 0.671875,
+      "vram_steady_gb": 0.671875,
+      "rss_peak_gb": 2.064434051513672,
+      "gpu_util_steady_pct": 32.0,
+      "n_attempts": 1
+    },
+    "ldcq": {
+      "vram_peak_gb": 1.224609375,
+      "vram_steady_gb": 1.224609375,
+      "rss_peak_gb": 11.877765655517578,
+      "gpu_util_steady_pct": 63.0,
+      "n_attempts": 5
+    },
+    "eda": {
+      "vram_peak_gb": 7.220703125,
+      "vram_steady_gb": 7.220703125,
+      "rss_peak_gb": 3.7331390380859375,
+      "gpu_util_steady_pct": 79.0,
+      "n_attempts": 4
+    },
+    "qgpo": {
+      "vram_peak_gb": 3.615234375,
+      "vram_steady_gb": 3.615234375,
+      "rss_peak_gb": 6.176910400390625,
+      "gpu_util_steady_pct": 70.0,
+      "n_attempts": 3
+    }
+  }
+}

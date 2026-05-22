@@ -1,0 +1,55 @@
+# Build artifacts and runtime state — regenerable, don't commit
+logs/
+.venv/
+**/__pycache__/
+*.pyc
+
+# Orchestrator state IS committed (autoresearch.json, matrix.json) for the
+# operator audit trail, but per-attempt footprints are large/noisy.
+state/footprints/*.footprint.json
+
+# === Reproduction policy (added): commit CODE + recreation scripts ONLY ===
+# Never commit weights, checkpoints, datasets, or anything needing git-lfs.
+# Python env / caches
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+# logs / runtime
+logs/
+wandb/
+mlruns/
+outputs/
+*.log
+# model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.pdparams
+*.onnx
+*.msgpack
+# datasets / arrays / serialized blobs
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.bin
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+# demo / paper media (upstream marketing assets, not source)
+*.mp4
+*.mov
+*.avi
+*.webm
+*.gif
+*.pdf
