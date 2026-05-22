@@ -53,3 +53,10 @@ outputs/
 *.webm
 *.gif
 *.pdf
+
+# Local agent / editor config (not source)
+.claude/
+.vscode/
+.idea/
+.cursor/
+*.swp
