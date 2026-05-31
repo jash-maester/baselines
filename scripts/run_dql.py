@@ -16,7 +16,8 @@ from pathlib import Path
 
 from _launch_common import (
     REPOS, parse_common_args, env_to_minari, split_env_dataset,
-    install_wandb_stub, mlflow_start, alarm_timeout, end_mlflow_run, TimeoutSentinel,
+    install_wandb_stub, install_tb_shim, mlflow_start, alarm_timeout,
+    end_mlflow_run, TimeoutSentinel,
 )
 
 DQL_ROOT = REPOS / "Diffusion-Policies-for-Offline-RL"
@@ -34,6 +35,7 @@ def main() -> int:
     minari_id = env_to_minari(args.env_d4rl_name)
 
     install_wandb_stub()
+    install_tb_shim()  # DQL agent logs losses via TensorBoard SummaryWriter
     run = mlflow_start(
         algo="dql", env=env, dataset=dataset, seed=args.seed, stage="full",
         repo_url="https://github.com/Zhendong-Wang/Diffusion-Policies-for-Offline-RL",
@@ -55,6 +57,13 @@ def main() -> int:
         if "main" in sys.modules:
             del sys.modules["main"]
         main_mod = importlib.import_module("main")
+
+        # main.py is executed via runpy.run_path below (it has no main() fn),
+        # which re-executes the file in a FRESH namespace -> patches to this
+        # imported module are NOT seen by the run. So d4rl_normalized_score
+        # logging and the smoke truncation live IN main.py (writer.add_scalar +
+        # env BASELINES_DQL_SMOKE). We import main only to confirm the row exists
+        # and (defensively) to ensure v0 rows are present.
         hp = main_mod.hyperparameters
         # Copy closest v2 row for each v0 env we care about.
         v0_to_v2 = {
@@ -73,8 +82,10 @@ def main() -> int:
             raise SystemExit(f"DQL has no hyperparameter row for {args.env_d4rl_name!r}")
 
         if args.smoke:
-            hp[args.env_d4rl_name]["num_epochs"] = 1
-            hp[args.env_d4rl_name]["eval_freq"] = 1
+            # Smoke truncation is applied inside main.py (the runpy-fresh
+            # namespace ignores patches to main_mod here). See main.py's
+            # BASELINES_DQL_SMOKE handling.
+            os.environ["BASELINES_DQL_SMOKE"] = "1"
 
         # Build argv per README defaults.
         sys.argv = [

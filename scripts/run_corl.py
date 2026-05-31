@@ -71,6 +71,17 @@ CORL_SPLIT_TO_CFG = {
 def main() -> int:
     args = parse_common_args()
     algo = args.algo
+    # User-dropped algos self-skip (rc=64) so a *running* orchestrator's already-
+    # queued cells are excluded without a restart. Data-driven via
+    # state/dropped_algos.json -> {"dropped": ["td3bc", ...]}.
+    try:
+        import json as _json
+        _dropped = set(_json.loads((ROOT / "state" / "dropped_algos.json").read_text()).get("dropped", []))
+    except Exception:
+        _dropped = set()
+    if algo in _dropped:
+        print(f"[run_corl] algo {algo!r} is in the dropped list -> skipping (rc=64).", file=sys.stderr)
+        return 64
     if algo not in ALGO_TO_SCRIPT:
         print(f"Unknown algo {algo!r}; expected one of {list(ALGO_TO_SCRIPT)}", file=sys.stderr)
         return 2

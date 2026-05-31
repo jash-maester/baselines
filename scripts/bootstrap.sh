@@ -43,9 +43,15 @@ uv pip install --python .venv/bin/python torch==2.11.0 --index-url "$TORCH_INDEX
 # ---------------------------------------------------------------------------
 say "4/6  compat shim (editable) + pinned deps"
 uv pip install --python .venv/bin/python -e ./compat
-# --extra-index-url lets uv satisfy torch==2.11.0+cu128 from the lockfile pin
+# --extra-index-url lets uv satisfy torch==2.11.0+cu128 from the lockfile pin.
+# --index-strategy unsafe-best-match: with two indexes, uv's default first-index
+# strategy pins a package to the first index that has it (the cu128 index for
+# e.g. certifi) and won't fall back to PyPI for the locked version, breaking
+# resolution. unsafe-best-match lets each *exact pinned* version resolve from
+# whichever index carries it. Versions are unchanged — only index selection.
 uv pip install --python .venv/bin/python -r requirements.lock.txt \
-  --extra-index-url "$TORCH_INDEX"
+  --extra-index-url "$TORCH_INDEX" \
+  --index-strategy unsafe-best-match
 
 # ---------------------------------------------------------------------------
 say "5/6  Minari datasets (4 envs x {medium,expert} = 8 datasets, downloads ~GB)"

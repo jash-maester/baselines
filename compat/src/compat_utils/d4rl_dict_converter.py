@@ -76,13 +76,19 @@ def get_dataset(env, **kwargs):
 
 
 def get_normalized_score(d4rl_name, raw_return):
-    """Module-level normalized scoring (some repos call d4rl.get_normalized_score)."""
-    minari_id = D4RL_NAME_TO_MINARI_ID[d4rl_name]
-    ds = minari.load_dataset(minari_id, download=True)
-    ref_min = getattr(ds.spec, "reference_min_score", None)
-    ref_max = getattr(ds.spec, "reference_max_score", None)
-    if ref_min is None:
-        ref_min = 0.0
-    if ref_max is None or ref_max == ref_min:
-        ref_max = ref_min + 1.0
+    """Module-level normalized scoring (some repos call d4rl.get_normalized_score).
+
+    EDA and QGPO normalize via this module function; CORL/DQL normalize via
+    OldGymEnvWrapper.get_normalized_score. The Minari datasets ship no
+    `spec.reference_min/max_score`, so the old implementation here fell back to
+    (0, 1) and returned the *raw* return — making EDA/QGPO scores meaningless
+    and inconsistent with CORL. Delegate to the same Minari-derived reference
+    scores (`_minari_ref_scores`) the env wrapper uses, so all methods share one
+    normalization. Returns the 0-1 fraction; callers multiply by 100.
+    Lazy import avoids a circular import (env_factory imports this module).
+    """
+    from compat_utils.env_factory import _minari_ref_scores
+    ref_min, ref_max = _minari_ref_scores(d4rl_name)
+    if ref_max == ref_min:
+        return 0.0
     return (raw_return - ref_min) / (ref_max - ref_min)

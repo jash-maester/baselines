@@ -1,0 +1,4 @@
+{
+  "dropped": ["td3bc"],
+  "_note": "Algos dropped by user request. CORL launcher (run_corl.py) self-skips these with rc=64 so a running orchestrator excludes already-queued cells without a restart. td3bc dropped 2026-05-23 (old algorithm)."
+}

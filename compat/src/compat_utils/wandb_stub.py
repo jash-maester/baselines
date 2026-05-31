@@ -38,6 +38,18 @@ _last_flush = 0.0
 FLUSH_EVERY_N = 500
 FLUSH_EVERY_SEC = 2.0
 
+# Reference scores for the active run (set by the launcher via set_refs). When a
+# `d4rl_normalized_score*` metric is forwarded we also emit the inverted
+# `raw_return*` so raw + normalized are both logged. (raw = norm/100*(max-min)+min)
+_ref_min = None
+_ref_max = None
+
+
+def set_refs(ref_min, ref_max) -> None:
+    global _ref_min, _ref_max
+    _ref_min = float(ref_min) if ref_min is not None else None
+    _ref_max = float(ref_max) if ref_max is not None else None
+
 
 def _get_client():
     global _client
@@ -92,6 +104,15 @@ class _StubRun:
         self.dir = "."
         self.config = _ConfigStub()
 
+    def log(self, metrics, step=None, **kwargs):
+        # Forward run.log(...) to the module-level MLflow forwarder. Without
+        # this, __getattr__ returns a no-op and silently drops every metric
+        # from repos that log through the run object (e.g. EDA's
+        # `args.run.log({...})`, and `wandb.run.log(...)`) rather than the
+        # module-level `wandb.log()` — yielding empty MLflow runs. `log` here
+        # resolves to the module-level function defined below at call time.
+        log(metrics, step=step, **kwargs)
+
     def __getattr__(self, name):
         return lambda *a, **kw: None
 
@@ -144,6 +165,12 @@ def log(metrics, step=None, **kwargs):
             continue  # non-scalar (image, histogram, ndarray) — skip
         key = str(k).replace("/", ".")
         _buffer.append(_Metric(key, fv, ts_ms, step_int))
+        # also emit the raw return alongside any normalized score
+        if ("d4rl_normalized_score" in key and _ref_min is not None
+                and _ref_max is not None and _ref_max != _ref_min):
+            raw = fv / 100.0 * (_ref_max - _ref_min) + _ref_min
+            _buffer.append(_Metric(key.replace("d4rl_normalized_score", "raw_return"),
+                                   raw, ts_ms, step_int))
     if len(_buffer) >= FLUSH_EVERY_N or (time.time() - _last_flush) > FLUSH_EVERY_SEC:
         _flush()
 

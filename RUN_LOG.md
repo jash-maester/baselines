@@ -153,3 +153,105 @@ User policy (2026-05-19): permissive — autonomous fixes to `repos/*` are allow
   - `d4rl.qlearning_dataset(gym.make('halfcheetah-medium-v0'))` returned 1,000,000 transitions; rewards sum 12,089,212, mean 12.089; timeouts=1000, terminals=0.
   - `env.get_dataset()` on `humanoid-medium-v0` returned 999,153 transitions; rewards mean 8.165.
 - **All 12 Option C Minari IDs validated** (4 envs × {simple, medium, expert} v0). Datasets cached under `~/.minari/`.
+
+## Machine 2 (helix, 10.21.186.72) bring-up + logging fixes — 2026-05-22
+
+Second-machine setup (RTX 5090, sm_120, torch 2.11.0+cu128). MLflow reached via
+SSH tunnel localhost:5555 -> shared server (Makefile left at committed
+localhost:5555). All edits below are telemetry-only / orchestration; no
+hyperparameter or algorithm changes. Repo edits are math-preserving.
+
+**Orchestration / compat (scripts/, compat/ — not repos/):**
+- #29 `scripts/bootstrap.sh`: add `--index-strategy unsafe-best-match` to the
+  requirements.lock install — uv's default first-index strategy couldn't resolve
+  the lockfile across PyPI + the cu128 index (certifi/pyrallis pinned on PyPI).
+  Versions unchanged.
+- #30 `compat/.../wandb_stub.py`: `_StubRun.log` was a no-op via `__getattr__`,
+  silently dropping every `run.log(...)` (EDA logs through the run object, not
+  module-level `wandb.log`). Added a forwarding `log` method. Verified: EDA
+  `loss.diffusion` now lands in MLflow.
+- #31 `compat/.../tb_shim.py` (NEW) + `_launch_common.install_tb_shim`: drop-in
+  `SummaryWriter` forwarding add_scalar/add_scalars -> mlflow.log_metric
+  (buffered). QGPO/DQL log via TensorBoard. Verified: qgpo `actor.loss`, dql
+  `BC Loss`/`QL Loss`/`Critic Loss` land in MLflow.
+- #32 `compat/.../d4rl_dict_converter.get_normalized_score`: was reading
+  `ds.spec.reference_min/max_score` (None for all Minari datasets) -> fell back
+  to (0,1) -> returned RAW. EDA/QGPO normalize via this module fn while
+  CORL/DQL use `env.get_normalized_score`. Delegated it to the same
+  `_minari_ref_scores`, so all methods share one normalization. Verified both
+  paths agree (29.55 @ raw=4800 halfcheetah-medium).
+- #33 `scripts/autoresearch_smoke.py::_has_mlflow_metrics`: queried
+  `tags.env=<full d4rl name>` but launchers tag base env + dataset -> 0 matches
+  -> false-red for tqdm-only methods (DT). Now derives base env + dataset.
+- #34 `scripts/run_qgpo.py`: install_tb_shim; smoke-only env
+  `BASELINES_SMOKE_QGPO_ITERS=50` so the critic smoke reaches its epoch-0 eval.
+- #35 `scripts/run_dql.py`: install_tb_shim; set env `BASELINES_DQL_SMOKE` for
+  smoke. IMPORTANT: DQL runs main.py via `runpy.run_path` (no main() fn) -> a
+  FRESH namespace, so launcher-side patches to the imported module
+  (hyperparameters, eval_policy) are NOT seen by the run (verified empirically).
+  Therefore DQL's score logging + smoke truncation live in main.py (#39), not as
+  launcher monkeypatches.
+- #36 `scripts/long_runner.py` + `state/matrix.json`: dropped diffuser from the
+  matrix (228 cells). Its single-stage "full" cell only ran train.py; the score
+  comes from plan_guided.py (a stage the matrix never ran). Excluded like
+  LDCQ/DD rather than restructured. (User decision 2026-05-22.)
+
+**Repo edits (repos/* — telemetry only, matrix math unchanged):**
+- #37 CEP `Offline_RL_2D/train_critic.py`: log `d4rl_normalized_score_gs{gs}`
+  (= d4rl.get_normalized_score(env, raw_eval_return)*100) beside the existing
+  raw `eval/rew{gs}`. Per user "log all 7 guidance scales, no single headline".
+  Also: inner critic-update loop count reads `BASELINES_SMOKE_QGPO_ITERS`
+  (default 10000 -> matrix unchanged; smoke uses 50).
+- #38 EDA `finetune_policy.py`: `mean` from pallaral_simple_eval_policy is the
+  D4RL-normalized fraction; log `d4rl_normalized_score` (= mean*100) at step 0
+  and per eval epoch.
+- #39 DQL `main.py`: (a) `writer = None` -> `SummaryWriter(output_dir)` so the
+  agent's training scalars flow through the tb_shim; (b) after eval,
+  `writer.add_scalar("d4rl_normalized_score", eval_norm_res*100, curr_epoch)`
+  (+ raw return); (c) env-gated `BASELINES_DQL_SMOKE` truncation
+  (num_epochs/eval_freq/num_steps_per_epoch/eval_episodes) so the smoke reaches
+  eval. Verified d4rl_normalized_score=-3.01 (untrained smoke policy, sane
+  magnitude). NOTE: DQL v0 eval default is 100 episodes of stoch_resample_50 in
+  the matrix -> slow; left at repo default (changing it = methodology).
+
+**Verified (smoke, latent_cep_baselines_smoke exp):** wandb->mlflow (EDA loss),
+tb->mlflow (qgpo/dql losses), normalization consistency, EDA
+`d4rl_normalized_score`, QGPO `d4rl_normalized_score_gs{gs}`. NOTE: smoke eval
+*values* are from untrained 1-epoch checkpoints (garbage, e.g. large negatives)
+— only the logging path is verified; real matrix values to be sanity-checked
+against reference_scores.json early per docs/06 (<30%-of-expected check).
+
+**Known follow-ups:** DQL v0 eval default is 100 episodes (slow); QGPO compare
+cell intentionally blank (gs-suffixed keys, no headline) — dashboard could be
+extended to surface per-gs scores later.
+
+## Raw + reference-score logging (2026-05-23, machine 2)
+
+To make every score losslessly convertible (raw <-> Minari-normalized <-> D4RL-
+normalized) without re-running:
+- #40 `scripts/_launch_common.mlflow_start`: log `ref_min`, `ref_max`,
+  `ref_source=minari_expert_mean`, `norm_scheme=minari_v0` as run tags (uniform,
+  all methods); hand the refs to the metric shims via set_refs().
+- #41 `compat/.../wandb_stub.py` + `tb_shim.py`: `set_refs()` + when any
+  `d4rl_normalized_score*` metric is forwarded, also emit the inverted
+  `raw_return*` (= norm/100*(ref_max-ref_min)+ref_min). Covers CORL/EDA (wandb
+  path) and QGPO/DQL (tensorboard path) with no per-repo edits; DQL/QGPO also
+  keep their native raw metrics. Verified live: bc logs d4rl_normalized_score +
+  raw_return together; QGPO gs variants too.
+- Operational: restarted the in-flight cells so they pick up the new logging
+  (freeze oom_watchdog+matrix-monitor via SIGSTOP -> kill+reset running->pending
+  -> make matrix -> SIGCONT). Deleted 20 KILLED runs (power-down + restart
+  orphans); exp40 now holds only live RUNNING + future FINISHED.
+- Minari refs (deterministic, for offline conversion): halfcheetah (0,16242.9),
+  hopper (0,3857.8), walker2d (0,6847.8), humanoid (0,8602.9). D4RL refs:
+  halfcheetah (-280.18,12135), hopper (-20.27,3234.3), walker2d (1.63,4592.3).
+
+## Dropped TD3+BC (2026-05-23, user: old algorithm)
+
+- #42 Removed `td3bc` from `long_runner` CORL generator (re-seeds exclude it) +
+  added `state/dropped_algos.json` ({"dropped":["td3bc"]}) read by
+  `run_corl.py`, which now returns rc=64 (skip) for any dropped algo BEFORE
+  mlflow_start. This excludes td3bc from the *running* orchestrator (which holds
+  its pending list in memory) without a restart: its 18 queued cells self-skip
+  (-> status skipped, no MLflow runs) as the scheduler reaches them. Effective
+  matrix: 228 -> 210 cells. Verified: a td3bc launch returns rc=64 instantly.

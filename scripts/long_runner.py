@@ -111,8 +111,10 @@ def _default_manifest() -> list[dict]:
         kw.setdefault("pool", _POOL)
         return kw
 
-    # CORL methods × 3 envs × 2 splits × 3 seeds (no Humanoid by decision D4)
-    for algo in ("bc", "cql", "iql", "td3bc", "dt"):
+    # CORL methods × 3 envs × 2 splits × 3 seeds (no Humanoid by decision D4).
+    # td3bc dropped 2026-05-23 (user: old algorithm). Running cells self-skip via
+    # state/dropped_algos.json; removed here so re-seeds exclude it too.
+    for algo in ("bc", "cql", "iql", "dt"):
         for env in ("halfcheetah", "hopper", "walker2d"):
             for split in ("medium", "expert"):
                 d4rl = f"{env}-{split}-v0"
@@ -125,18 +127,12 @@ def _default_manifest() -> list[dict]:
                         est_hours=_est_hours(algo, d4rl),
                     ))
 
-    # Diffuser × 3 envs × 2 splits × 3 seeds (no Humanoid by decision D5)
-    for env in ("halfcheetah", "hopper", "walker2d"):
-        for split in ("medium", "expert"):
-            d4rl = f"{env}-{split}-v0"
-            for seed in (0, 1, 2):
-                rows.append(_mk(
-                    key=f"diffuser_{d4rl}_seed{seed}_full",
-                    algo="diffuser", env_d4rl_name=d4rl, dataset=split, seed=seed,
-                    stage="full", launcher="run_diffuser.py",
-                    extra_args=["--algo", "diffuser"],
-                    est_hours=_est_hours("diffuser", d4rl),
-                ))
+    # Diffuser dropped from the matrix (user 2026-05-22). Its single-stage "full"
+    # cell only ran scripts/train.py (diffusion model); the normalized score is
+    # produced by the separate plan_guided.py eval stage, which the matrix never
+    # ran -> diffuser logged no score. Rather than restructure into a 3-stage
+    # (train -> train_values -> plan_guided) pipeline, exclude it like LDCQ and
+    # Decision-Diffuser. Still present as a submodule. See RUN_LOG.md.
 
     # DD dropped from the matrix (user 2026-05-19). It needs params_proto +
     # ml_logger + jaynes deps AND Option-B `hopper-medium-expert-v2` data,

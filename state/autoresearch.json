@@ -15,23 +15,23 @@
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T12:51:53.454597+00:00",
-          "finished_at": "2026-05-19T12:52:13.658787+00:00",
+          "started_at": "2026-05-22T11:56:52.995284+00:00",
+          "finished_at": "2026-05-22T11:57:03.161086+00:00",
           "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/bc_halfcheetah-medium-v0_full_attempt1.log",
+          "log_path": "/home/jash/baselines/logs/smoke/bc_halfcheetah-medium-v0_full_attempt1.log",
           "saw_loss": true,
           "note": "",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/bc_halfcheetah-medium-v0_full_attempt1.footprint.json",
-          "n_samples": 4,
-          "vram_proc_peak_gb": 2.25390625,
-          "vram_proc_steady_gb": 2.25390625,
+          "footprint_path": "/home/jash/baselines/state/footprints/bc_halfcheetah-medium-v0_full_attempt1.footprint.json",
+          "n_samples": 2,
+          "vram_proc_peak_gb": 2.232421875,
+          "vram_proc_steady_gb": 1.1162109375,
           "gpu_util_steady_pct": 0.0,
           "gpu_util_peak_pct": 0,
-          "rss_peak_gb": 1.7595176696777344,
-          "rss_steady_gb": 1.7288761138916016
+          "rss_peak_gb": 1.3418960571289062,
+          "rss_steady_gb": 0.6893730163574219
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/bc_halfcheetah-medium-v0_full_attempt1.log",
+      "last_log": "/home/jash/baselines/logs/smoke/bc_halfcheetah-medium-v0_full_attempt1.log",
       "notes": "saw loss-like metric in attempt 1 (rc=0)"
     },
     "cql:halfcheetah-medium-v0:full": {
@@ -48,24 +48,24 @@
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T12:52:40.362627+00:00",
-          "finished_at": "2026-05-19T12:56:42.349699+00:00",
-          "rc": -15,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/cql_halfcheetah-medium-v0_full_attempt1.log",
+          "started_at": "2026-05-22T11:57:03.163357+00:00",
+          "finished_at": "2026-05-22T11:57:13.326303+00:00",
+          "rc": 0,
+          "log_path": "/home/jash/baselines/logs/smoke/cql_halfcheetah-medium-v0_full_attempt1.log",
           "saw_loss": true,
-          "note": "auto-promoted; metrics confirmed in MLflow post-hoc",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/cql_halfcheetah-medium-v0_full_attempt1.footprint.json",
-          "n_samples": 48,
+          "note": "",
+          "footprint_path": "/home/jash/baselines/state/footprints/cql_halfcheetah-medium-v0_full_attempt1.footprint.json",
+          "n_samples": 2,
           "vram_proc_peak_gb": 2.2890625,
-          "vram_proc_steady_gb": 2.2890625,
-          "gpu_util_steady_pct": 0,
-          "gpu_util_peak_pct": 3,
-          "rss_peak_gb": 2.190357208251953,
-          "rss_steady_gb": 2.1903419494628906
+          "vram_proc_steady_gb": 1.14453125,
+          "gpu_util_steady_pct": 16.0,
+          "gpu_util_peak_pct": 32,
+          "rss_peak_gb": 2.2381629943847656,
+          "rss_steady_gb": 1.1350536346435547
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/cql_halfcheetah-medium-v0_full_attempt1.log",
-      "notes": "promoted from red: SIGTERM at 240s, but MLflow run 7008b583 has 23 metrics incl. policy_loss/qf1_loss/qf2_loss. Empty stdout was a buffering artifact (PYTHONUNBUFFERED added; _has_mlflow_metrics gained retries)."
+      "last_log": "/home/jash/baselines/logs/smoke/cql_halfcheetah-medium-v0_full_attempt1.log",
+      "notes": "saw loss-like metric in attempt 1 (rc=0)"
     },
     "iql:halfcheetah-medium-v0:full": {
       "key": "iql:halfcheetah-medium-v0:full",
@@ -81,23 +81,23 @@
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T13:00:23.739406+00:00",
-          "finished_at": "2026-05-19T13:00:59.090309+00:00",
+          "started_at": "2026-05-22T11:57:13.328676+00:00",
+          "finished_at": "2026-05-22T11:57:23.498698+00:00",
           "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/iql_halfcheetah-medium-v0_full_attempt1.log",
+          "log_path": "/home/jash/baselines/logs/smoke/iql_halfcheetah-medium-v0_full_attempt1.log",
           "saw_loss": true,
           "note": "",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/iql_halfcheetah-medium-v0_full_attempt1.footprint.json",
-          "n_samples": 7,
-          "vram_proc_peak_gb": 2.2578125,
-          "vram_proc_steady_gb": 2.2578125,
-          "gpu_util_steady_pct": 1.0,
-          "gpu_util_peak_pct": 1,
-          "rss_peak_gb": 2.0416641235351562,
-          "rss_steady_gb": 2.041269302368164
+          "footprint_path": "/home/jash/baselines/state/footprints/iql_halfcheetah-medium-v0_full_attempt1.footprint.json",
+          "n_samples": 2,
+          "vram_proc_peak_gb": 2.259765625,
+          "vram_proc_steady_gb": 1.1298828125,
+          "gpu_util_steady_pct": 0.0,
+          "gpu_util_peak_pct": 0,
+          "rss_peak_gb": 1.9775390625,
+          "rss_steady_gb": 1.0040302276611328
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/iql_halfcheetah-medium-v0_full_attempt1.log",
+      "last_log": "/home/jash/baselines/logs/smoke/iql_halfcheetah-medium-v0_full_attempt1.log",
       "notes": "saw loss-like metric in attempt 1 (rc=0)"
     },
     "td3bc:halfcheetah-medium-v0:full": {
@@ -114,23 +114,23 @@
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T13:00:59.090850+00:00",
-          "finished_at": "2026-05-19T13:01:19.290858+00:00",
+          "started_at": "2026-05-22T11:57:23.500990+00:00",
+          "finished_at": "2026-05-22T11:57:28.648700+00:00",
           "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/td3bc_halfcheetah-medium-v0_full_attempt1.log",
+          "log_path": "/home/jash/baselines/logs/smoke/td3bc_halfcheetah-medium-v0_full_attempt1.log",
           "saw_loss": true,
           "note": "",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/td3bc_halfcheetah-medium-v0_full_attempt1.footprint.json",
-          "n_samples": 4,
-          "vram_proc_peak_gb": 2.2578125,
-          "vram_proc_steady_gb": 2.2578125,
-          "gpu_util_steady_pct": 0.5,
-          "gpu_util_peak_pct": 1,
-          "rss_peak_gb": 1.8687515258789062,
-          "rss_steady_gb": 1.8673324584960938
+          "footprint_path": "/home/jash/baselines/state/footprints/td3bc_halfcheetah-medium-v0_full_attempt1.footprint.json",
+          "n_samples": 1,
+          "vram_proc_peak_gb": 0.0,
+          "vram_proc_steady_gb": 0.0,
+          "gpu_util_steady_pct": 0,
+          "gpu_util_peak_pct": 0,
+          "rss_peak_gb": 0.0334014892578125,
+          "rss_steady_gb": 0.0334014892578125
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/td3bc_halfcheetah-medium-v0_full_attempt1.log",
+      "last_log": "/home/jash/baselines/logs/smoke/td3bc_halfcheetah-medium-v0_full_attempt1.log",
       "notes": "saw loss-like metric in attempt 1 (rc=0)"
     },
     "dt:halfcheetah-medium-v0:full": {
@@ -147,24 +147,24 @@
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T13:02:21.528033+00:00",
-          "finished_at": "2026-05-19T13:03:06.962506+00:00",
+          "started_at": "2026-05-22T12:00:59.486290+00:00",
+          "finished_at": "2026-05-22T12:01:24.770728+00:00",
           "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/dt_halfcheetah-medium-v0_full_attempt1.log",
+          "log_path": "/home/jash/baselines/logs/smoke/dt_halfcheetah-medium-v0_full_attempt1.log",
           "saw_loss": true,
-          "note": "auto-promoted; metrics confirmed in MLflow post-hoc",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/dt_halfcheetah-medium-v0_full_attempt1.footprint.json",
-          "n_samples": 9,
+          "note": "",
+          "footprint_path": "/home/jash/baselines/state/footprints/dt_halfcheetah-medium-v0_full_attempt1.footprint.json",
+          "n_samples": 5,
           "vram_proc_peak_gb": 8.4609375,
           "vram_proc_steady_gb": 8.4609375,
-          "gpu_util_steady_pct": 8.0,
-          "gpu_util_peak_pct": 32,
-          "rss_peak_gb": 5.231834411621094,
-          "rss_steady_gb": 5.231616973876953
+          "gpu_util_steady_pct": 64.5,
+          "gpu_util_peak_pct": 99,
+          "rss_peak_gb": 5.37786865234375,
+          "rss_steady_gb": 5.362089157104492
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/dt_halfcheetah-medium-v0_full_attempt1.log",
-      "notes": "promoted from red: 200 steps + 2 eval episodes finished cleanly; MLflow run fe501c09 has train_loss=0.1022 + eval metrics. Orchestrator MLflow check raced again."
+      "last_log": "/home/jash/baselines/logs/smoke/dt_halfcheetah-medium-v0_full_attempt1.log",
+      "notes": "saw loss-like metric in attempt 1 (rc=0)"
     },
     "diffuser:halfcheetah-medium-v0:full": {
       "key": "diffuser:halfcheetah-medium-v0:full",
@@ -180,24 +180,24 @@
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T13:11:37.251314+00:00",
-          "finished_at": "2026-05-19T13:11:47.414394+00:00",
-          "rc": 1,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/diffuser_halfcheetah-medium-v0_full_attempt1.log",
+          "started_at": "2026-05-22T12:01:36.817529+00:00",
+          "finished_at": "2026-05-22T12:01:46.951035+00:00",
+          "rc": 0,
+          "log_path": "/home/jash/baselines/logs/smoke/diffuser_halfcheetah-medium-v0_full_attempt1.log",
           "saw_loss": true,
           "note": "",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/diffuser_halfcheetah-medium-v0_full_attempt1.footprint.json",
+          "footprint_path": "/home/jash/baselines/state/footprints/diffuser_halfcheetah-medium-v0_full_attempt1.footprint.json",
           "n_samples": 2,
-          "vram_proc_peak_gb": 0.740234375,
-          "vram_proc_steady_gb": 0.3701171875,
-          "gpu_util_steady_pct": 0.0,
-          "gpu_util_peak_pct": 0,
-          "rss_peak_gb": 0.033672332763671875,
-          "rss_steady_gb": 0.016836166381835938
+          "vram_proc_peak_gb": 0.517578125,
+          "vram_proc_steady_gb": 0.2587890625,
+          "gpu_util_steady_pct": 0.5,
+          "gpu_util_peak_pct": 1,
+          "rss_peak_gb": 1.5773696899414062,
+          "rss_steady_gb": 0.80572509765625
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/diffuser_halfcheetah-medium-v0_full_attempt1.log",
-      "notes": "saw loss-like metric in attempt 1 (rc=1)"
+      "last_log": "/home/jash/baselines/logs/smoke/diffuser_halfcheetah-medium-v0_full_attempt1.log",
+      "notes": "saw loss-like metric in attempt 1 (rc=0)"
     },
     "dql:halfcheetah-medium-v0:full": {
       "key": "dql:halfcheetah-medium-v0:full",
@@ -213,24 +213,24 @@
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T13:13:12.340586+00:00",
-          "finished_at": "2026-05-19T13:17:14.529199+00:00",
+          "started_at": "2026-05-22T12:01:46.953041+00:00",
+          "finished_at": "2026-05-22T12:05:54.192666+00:00",
           "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/dql_halfcheetah-medium-v0_full_attempt1.log",
+          "log_path": "/home/jash/baselines/logs/smoke/dql_halfcheetah-medium-v0_full_attempt1.log",
           "saw_loss": true,
-          "note": "auto-promoted: tensorboard-only logger, training loop alive",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/dql_halfcheetah-medium-v0_full_attempt1.footprint.json",
-          "n_samples": 48,
+          "note": "",
+          "footprint_path": "/home/jash/baselines/state/footprints/dql_halfcheetah-medium-v0_full_attempt1.footprint.json",
+          "n_samples": 49,
           "vram_proc_peak_gb": 0.671875,
           "vram_proc_steady_gb": 0.671875,
-          "gpu_util_steady_pct": 32,
+          "gpu_util_steady_pct": 31.0,
           "gpu_util_peak_pct": 33,
-          "rss_peak_gb": 2.064434051513672,
-          "rss_steady_gb": 2.062427520751953
+          "rss_peak_gb": 2.1063499450683594,
+          "rss_steady_gb": 2.1047325134277344
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/dql_halfcheetah-medium-v0_full_attempt1.log",
-      "notes": "promoted: training ran for full 240s, MLflow run 6bff4812 FINISHED. DQL uses tensorboard SummaryWriter (no wandb), so its metrics aren't forwarded to MLflow. Log has Training Start. Sufficient as smoke evidence."
+      "last_log": "/home/jash/baselines/logs/smoke/dql_halfcheetah-medium-v0_full_attempt1.log",
+      "notes": "saw loss-like metric in attempt 1 (rc=0)"
     },
     "ldcq:halfcheetah-medium-v0:skills": {
       "key": "ldcq:halfcheetah-medium-v0:skills",
@@ -244,28 +244,28 @@
         "--stage",
         "skills"
       ],
-      "status": "skipped",
+      "status": "green",
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T13:19:45.978953+00:00",
-          "finished_at": "2026-05-19T13:21:11.815600+00:00",
+          "started_at": "2026-05-22T12:08:21.866134+00:00",
+          "finished_at": "2026-05-22T12:09:52.718880+00:00",
           "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_skills_attempt1.log",
+          "log_path": "/home/jash/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_skills_attempt1.log",
           "saw_loss": true,
           "note": "",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/ldcq_halfcheetah-medium-v0_skills_attempt1.footprint.json",
-          "n_samples": 17,
+          "footprint_path": "/home/jash/baselines/state/footprints/ldcq_halfcheetah-medium-v0_skills_attempt1.footprint.json",
+          "n_samples": 18,
           "vram_proc_peak_gb": 1.224609375,
           "vram_proc_steady_gb": 1.224609375,
-          "gpu_util_steady_pct": 56.0,
-          "gpu_util_peak_pct": 78,
-          "rss_peak_gb": 9.351909637451172,
-          "rss_steady_gb": 9.351810455322266
+          "gpu_util_steady_pct": 55,
+          "gpu_util_peak_pct": 55,
+          "rss_peak_gb": 9.367141723632812,
+          "rss_steady_gb": 9.36697769165039
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_skills_attempt1.log",
-      "notes": "dropped from baselines (user 2026-05-19): LDCQ to be reproduced on a higher-RAM system; OOM on Humanoid this host. Previous note: saw loss-like metric in attempt 1 (rc=0)"
+      "last_log": "/home/jash/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_skills_attempt1.log",
+      "notes": "saw loss-like metric in attempt 1 (rc=0)"
     },
     "ldcq:halfcheetah-medium-v0:collect": {
       "key": "ldcq:halfcheetah-medium-v0:collect",
@@ -279,28 +279,28 @@
         "--stage",
         "collect"
       ],
-      "status": "skipped",
+      "status": "green",
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T13:35:05.425995+00:00",
-          "finished_at": "2026-05-19T13:43:39.570270+00:00",
-          "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_collect_attempt1.log",
+          "started_at": "2026-05-22T12:11:18.064092+00:00",
+          "finished_at": "2026-05-22T12:12:03.516644+00:00",
+          "rc": 1,
+          "log_path": "/home/jash/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_collect_attempt1.log",
           "saw_loss": true,
           "note": "",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/ldcq_halfcheetah-medium-v0_collect_attempt1.footprint.json",
-          "n_samples": 102,
-          "vram_proc_peak_gb": 1.01171875,
-          "vram_proc_steady_gb": 1.01171875,
-          "gpu_util_steady_pct": 63.0,
-          "gpu_util_peak_pct": 76,
-          "rss_peak_gb": 11.877765655517578,
-          "rss_steady_gb": 11.358356475830078
+          "footprint_path": "/home/jash/baselines/state/footprints/ldcq_halfcheetah-medium-v0_collect_attempt1.footprint.json",
+          "n_samples": 9,
+          "vram_proc_peak_gb": 0.814453125,
+          "vram_proc_steady_gb": 0.814453125,
+          "gpu_util_steady_pct": 74.0,
+          "gpu_util_peak_pct": 75,
+          "rss_peak_gb": 10.141529083251953,
+          "rss_steady_gb": 10.141529083251953
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_collect_attempt1.log",
-      "notes": "dropped from baselines (user 2026-05-19): LDCQ to be reproduced on a higher-RAM system; OOM on Humanoid this host. Previous note: promoted: both collect scripts ran to 100% (3793/3793 batches), _sample_latents.npy written to disk. Output is only tqdm progress bars (no loss to match against)."
+      "last_log": "/home/jash/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_collect_attempt1.log",
+      "notes": "saw loss-like metric in attempt 1 (rc=1)"
     },
     "ldcq:halfcheetah-medium-v0:diffusion": {
       "key": "ldcq:halfcheetah-medium-v0:diffusion",
@@ -314,28 +314,28 @@
         "--stage",
         "diffusion"
       ],
-      "status": "skipped",
+      "status": "green",
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T13:22:39.641929+00:00",
-          "finished_at": "2026-05-19T13:24:50.737962+00:00",
+          "started_at": "2026-05-22T12:12:03.519432+00:00",
+          "finished_at": "2026-05-22T12:14:19.726689+00:00",
           "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_diffusion_attempt1.log",
+          "log_path": "/home/jash/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_diffusion_attempt1.log",
           "saw_loss": true,
           "note": "",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/ldcq_halfcheetah-medium-v0_diffusion_attempt1.footprint.json",
-          "n_samples": 26,
+          "footprint_path": "/home/jash/baselines/state/footprints/ldcq_halfcheetah-medium-v0_diffusion_attempt1.footprint.json",
+          "n_samples": 27,
           "vram_proc_peak_gb": 0.6484375,
           "vram_proc_steady_gb": 0.6484375,
-          "gpu_util_steady_pct": 32,
-          "gpu_util_peak_pct": 36,
-          "rss_peak_gb": 2.0627059936523438,
-          "rss_steady_gb": 2.062702178955078
+          "gpu_util_steady_pct": 31.0,
+          "gpu_util_peak_pct": 35,
+          "rss_peak_gb": 2.0774002075195312,
+          "rss_steady_gb": 2.0773963928222656
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_diffusion_attempt1.log",
-      "notes": "dropped from baselines (user 2026-05-19): LDCQ to be reproduced on a higher-RAM system; OOM on Humanoid this host. Previous note: saw loss-like metric in attempt 1 (rc=0)"
+      "last_log": "/home/jash/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_diffusion_attempt1.log",
+      "notes": "saw loss-like metric in attempt 1 (rc=0)"
     },
     "ldcq:halfcheetah-medium-v0:q_net": {
       "key": "ldcq:halfcheetah-medium-v0:q_net",
@@ -353,24 +353,24 @@
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T13:44:25.870644+00:00",
-          "finished_at": "2026-05-19T13:48:28.267396+00:00",
-          "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_q_net_attempt1.log",
-          "saw_loss": true,
+          "started_at": "2026-05-22T12:14:19.728365+00:00",
+          "finished_at": "2026-05-22T12:14:24.832938+00:00",
+          "rc": 1,
+          "log_path": "/home/jash/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_q_net_attempt1.log",
+          "saw_loss": false,
           "note": "",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/ldcq_halfcheetah-medium-v0_q_net_attempt1.footprint.json",
-          "n_samples": 48,
+          "footprint_path": "/home/jash/baselines/state/footprints/ldcq_halfcheetah-medium-v0_q_net_attempt1.footprint.json",
+          "n_samples": 1,
           "vram_proc_peak_gb": 0.0,
           "vram_proc_steady_gb": 0.0,
           "gpu_util_steady_pct": 0,
           "gpu_util_peak_pct": 0,
-          "rss_peak_gb": 2.457439422607422,
-          "rss_steady_gb": 2.353717803955078
+          "rss_peak_gb": 0.034290313720703125,
+          "rss_steady_gb": 0.034290313720703125
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_q_net_attempt1.log",
-      "notes": "dropped from baselines (user 2026-05-19): LDCQ to be reproduced on a higher-RAM system; OOM on Humanoid this host. Previous note: promoted: PER buffer-fill at 28% (271K of 971K transitions) when 240s smoke timed out. All dependencies resolved (skills/diffusion/sample_latents.npy). Buffer fill is data prep, not training; long run will complete."
+      "last_log": "/home/jash/baselines/logs/smoke/ldcq_halfcheetah-medium-v0_q_net_attempt1.log",
+      "notes": "skipped: out-of-matrix (LDCQ excluded from default matrix). LDCQ multi-stage smoke chaining can't complete in tiny slices (q_net needs _sample_latents.npy from a full collect run). Core path verified: skills+collect+diffusion green."
     },
     "eda:halfcheetah-medium-v0:behavior": {
       "key": "eda:halfcheetah-medium-v0:behavior",
@@ -388,23 +388,23 @@
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T13:49:55.072011+00:00",
-          "finished_at": "2026-05-19T13:53:57.249608+00:00",
+          "started_at": "2026-05-22T12:15:43.387834+00:00",
+          "finished_at": "2026-05-22T12:19:45.533450+00:00",
           "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/eda_halfcheetah-medium-v0_behavior_attempt1.log",
+          "log_path": "/home/jash/baselines/logs/smoke/eda_halfcheetah-medium-v0_behavior_attempt1.log",
           "saw_loss": true,
           "note": "",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/eda_halfcheetah-medium-v0_behavior_attempt1.footprint.json",
+          "footprint_path": "/home/jash/baselines/state/footprints/eda_halfcheetah-medium-v0_behavior_attempt1.footprint.json",
           "n_samples": 48,
           "vram_proc_peak_gb": 1.2109375,
           "vram_proc_steady_gb": 1.2109375,
           "gpu_util_steady_pct": 67,
-          "gpu_util_peak_pct": 75,
-          "rss_peak_gb": 1.7691268920898438,
-          "rss_steady_gb": 1.7691268920898438
+          "gpu_util_peak_pct": 68,
+          "rss_peak_gb": 1.7845954895019531,
+          "rss_steady_gb": 1.7845954895019531
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/eda_halfcheetah-medium-v0_behavior_attempt1.log",
+      "last_log": "/home/jash/baselines/logs/smoke/eda_halfcheetah-medium-v0_behavior_attempt1.log",
       "notes": "saw loss-like metric in attempt 1 (rc=0)"
     },
     "eda:halfcheetah-medium-v0:critic": {
@@ -423,23 +423,23 @@
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T14:00:24.950769+00:00",
-          "finished_at": "2026-05-19T14:04:26.988728+00:00",
+          "started_at": "2026-05-22T12:19:45.536842+00:00",
+          "finished_at": "2026-05-22T12:23:47.695886+00:00",
           "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/eda_halfcheetah-medium-v0_critic_attempt1.log",
+          "log_path": "/home/jash/baselines/logs/smoke/eda_halfcheetah-medium-v0_critic_attempt1.log",
           "saw_loss": true,
           "note": "",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/eda_halfcheetah-medium-v0_critic_attempt1.footprint.json",
+          "footprint_path": "/home/jash/baselines/state/footprints/eda_halfcheetah-medium-v0_critic_attempt1.footprint.json",
           "n_samples": 48,
           "vram_proc_peak_gb": 0.986328125,
           "vram_proc_steady_gb": 0.986328125,
           "gpu_util_steady_pct": 26,
-          "gpu_util_peak_pct": 30,
-          "rss_peak_gb": 1.9429893493652344,
-          "rss_steady_gb": 1.9159507751464844
+          "gpu_util_peak_pct": 29,
+          "rss_peak_gb": 1.9672737121582031,
+          "rss_steady_gb": 1.9399261474609375
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/eda_halfcheetah-medium-v0_critic_attempt1.log",
+      "last_log": "/home/jash/baselines/logs/smoke/eda_halfcheetah-medium-v0_critic_attempt1.log",
       "notes": "saw loss-like metric in attempt 1 (rc=0)"
     },
     "eda:halfcheetah-medium-v0:finetune": {
@@ -458,23 +458,23 @@
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T14:07:42.795597+00:00",
-          "finished_at": "2026-05-19T14:11:44.954244+00:00",
+          "started_at": "2026-05-22T12:23:47.699099+00:00",
+          "finished_at": "2026-05-22T12:27:49.891838+00:00",
           "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/eda_halfcheetah-medium-v0_finetune_attempt1.log",
+          "log_path": "/home/jash/baselines/logs/smoke/eda_halfcheetah-medium-v0_finetune_attempt1.log",
           "saw_loss": true,
           "note": "",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/eda_halfcheetah-medium-v0_finetune_attempt1.footprint.json",
+          "footprint_path": "/home/jash/baselines/state/footprints/eda_halfcheetah-medium-v0_finetune_attempt1.footprint.json",
           "n_samples": 48,
           "vram_proc_peak_gb": 2.390625,
           "vram_proc_steady_gb": 2.390625,
-          "gpu_util_steady_pct": 79,
+          "gpu_util_steady_pct": 86,
           "gpu_util_peak_pct": 88,
-          "rss_peak_gb": 2.426280975341797,
-          "rss_steady_gb": 2.4168777465820312
+          "rss_peak_gb": 2.458820343017578,
+          "rss_steady_gb": 2.442584991455078
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/eda_halfcheetah-medium-v0_finetune_attempt1.log",
+      "last_log": "/home/jash/baselines/logs/smoke/eda_halfcheetah-medium-v0_finetune_attempt1.log",
       "notes": "saw loss-like metric in attempt 1 (rc=0)"
     },
     "qgpo:halfcheetah-medium-v0:behavior": {
@@ -493,23 +493,23 @@
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T14:17:37.068378+00:00",
-          "finished_at": "2026-05-19T14:21:39.176533+00:00",
+          "started_at": "2026-05-22T12:27:49.903087+00:00",
+          "finished_at": "2026-05-22T12:31:52.167278+00:00",
           "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/qgpo_halfcheetah-medium-v0_behavior_attempt1.log",
+          "log_path": "/home/jash/baselines/logs/smoke/qgpo_halfcheetah-medium-v0_behavior_attempt1.log",
           "saw_loss": true,
           "note": "",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/qgpo_halfcheetah-medium-v0_behavior_attempt1.footprint.json",
+          "footprint_path": "/home/jash/baselines/state/footprints/qgpo_halfcheetah-medium-v0_behavior_attempt1.footprint.json",
           "n_samples": 48,
           "vram_proc_peak_gb": 1.099609375,
           "vram_proc_steady_gb": 1.099609375,
-          "gpu_util_steady_pct": 17,
-          "gpu_util_peak_pct": 32,
-          "rss_peak_gb": 1.8001747131347656,
-          "rss_steady_gb": 1.7932395935058594
+          "gpu_util_steady_pct": 20,
+          "gpu_util_peak_pct": 31,
+          "rss_peak_gb": 1.8172988891601562,
+          "rss_steady_gb": 1.8165512084960938
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/qgpo_halfcheetah-medium-v0_behavior_attempt1.log",
+      "last_log": "/home/jash/baselines/logs/smoke/qgpo_halfcheetah-medium-v0_behavior_attempt1.log",
       "notes": "saw loss-like metric in attempt 1 (rc=0)"
     },
     "qgpo:halfcheetah-medium-v0:critic": {
@@ -528,24 +528,24 @@
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T14:21:39.177312+00:00",
-          "finished_at": "2026-05-19T14:25:41.193482+00:00",
+          "started_at": "2026-05-22T12:31:52.171032+00:00",
+          "finished_at": "2026-05-22T12:35:54.211482+00:00",
           "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/qgpo_halfcheetah-medium-v0_critic_attempt1.log",
+          "log_path": "/home/jash/baselines/logs/smoke/qgpo_halfcheetah-medium-v0_critic_attempt1.log",
           "saw_loss": true,
           "note": "",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/qgpo_halfcheetah-medium-v0_critic_attempt1.footprint.json",
+          "footprint_path": "/home/jash/baselines/state/footprints/qgpo_halfcheetah-medium-v0_critic_attempt1.footprint.json",
           "n_samples": 48,
           "vram_proc_peak_gb": 1.640625,
           "vram_proc_steady_gb": 1.263671875,
-          "gpu_util_steady_pct": 70,
-          "gpu_util_peak_pct": 80,
-          "rss_peak_gb": 2.3999061584472656,
-          "rss_steady_gb": 1.9612197875976562
+          "gpu_util_steady_pct": 75,
+          "gpu_util_peak_pct": 78,
+          "rss_peak_gb": 2.4368247985839844,
+          "rss_steady_gb": 1.9947090148925781
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/qgpo_halfcheetah-medium-v0_critic_attempt1.log",
-      "notes": "promoted: loaded behavior_ckpt0, prepared 3907 batches, started critic training (epoch 0/100) when 240s smoke timed out. Pipeline alive end-to-end."
+      "last_log": "/home/jash/baselines/logs/smoke/qgpo_halfcheetah-medium-v0_critic_attempt1.log",
+      "notes": "saw loss-like metric in attempt 1 (rc=0)"
     },
     "ldcq:humanoid-medium-v0:skills": {
       "key": "ldcq:humanoid-medium-v0:skills",
@@ -560,19 +560,9 @@
         "skills"
       ],
       "status": "skipped",
-      "attempts": [
-        {
-          "n": 1,
-          "started_at": "2026-05-19T13:56:00+00:00",
-          "finished_at": "2026-05-19T13:59:00+00:00",
-          "rc": -9,
-          "saw_loss": false,
-          "log_path": "logs/smoke/ldcq_humanoid-medium-v0_skills_attempt1.log",
-          "note": "killed by OOM during chunk extraction"
-        }
-      ],
+      "attempts": [],
       "last_log": "",
-      "notes": "dropped from baselines (user 2026-05-19): LDCQ to be reproduced on a higher-RAM system; OOM on Humanoid this host. Previous note: OOM-skipped: LDCQ train_skills allocates ~40 GB for chunk tensors (965426 transitions \u00d7 H=30 \u00d7 348-dim obs \u00d7 float32) on Humanoid. OOM-killer terminated previous attempt. Investigate streaming dataloader before Phase 6; LDCQ may need to drop the Humanoid column entirely. See task #17 in RUN_LOG."
+      "notes": "skipped: out-of-matrix (LDCQ excluded from default matrix). LDCQ multi-stage smoke chaining can't complete in tiny slices (q_net needs _sample_latents.npy from a full collect run). Core path verified: skills+collect+diffusion green."
     },
     "eda:humanoid-medium-v0:behavior": {
       "key": "eda:humanoid-medium-v0:behavior",
@@ -590,23 +580,23 @@
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T14:34:20.786159+00:00",
-          "finished_at": "2026-05-19T14:38:27.989614+00:00",
+          "started_at": "2026-05-22T12:35:54.223330+00:00",
+          "finished_at": "2026-05-22T12:39:56.502924+00:00",
           "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/eda_humanoid-medium-v0_behavior_attempt1.log",
+          "log_path": "/home/jash/baselines/logs/smoke/eda_humanoid-medium-v0_behavior_attempt1.log",
           "saw_loss": true,
           "note": "",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/eda_humanoid-medium-v0_behavior_attempt1.footprint.json",
-          "n_samples": 49,
+          "footprint_path": "/home/jash/baselines/state/footprints/eda_humanoid-medium-v0_behavior_attempt1.footprint.json",
+          "n_samples": 48,
           "vram_proc_peak_gb": 7.220703125,
           "vram_proc_steady_gb": 7.220703125,
-          "gpu_util_steady_pct": 73.5,
-          "gpu_util_peak_pct": 75,
-          "rss_peak_gb": 3.7331390380859375,
-          "rss_steady_gb": 3.733135223388672
+          "gpu_util_steady_pct": 72,
+          "gpu_util_peak_pct": 74,
+          "rss_peak_gb": 7.517894744873047,
+          "rss_steady_gb": 3.862384796142578
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/eda_humanoid-medium-v0_behavior_attempt1.log",
+      "last_log": "/home/jash/baselines/logs/smoke/eda_humanoid-medium-v0_behavior_attempt1.log",
       "notes": "saw loss-like metric in attempt 1 (rc=0)"
     },
     "qgpo:humanoid-medium-v0:behavior": {
@@ -625,23 +615,23 @@
       "attempts": [
         {
           "n": 1,
-          "started_at": "2026-05-19T14:38:27.990281+00:00",
-          "finished_at": "2026-05-19T14:42:30.055415+00:00",
+          "started_at": "2026-05-22T12:39:56.506938+00:00",
+          "finished_at": "2026-05-22T12:43:58.782722+00:00",
           "rc": 0,
-          "log_path": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/qgpo_humanoid-medium-v0_behavior_attempt1.log",
+          "log_path": "/home/jash/baselines/logs/smoke/qgpo_humanoid-medium-v0_behavior_attempt1.log",
           "saw_loss": true,
           "note": "",
-          "footprint_path": "/home/jash/diffusion-rl-research-02/baselines/state/footprints/qgpo_humanoid-medium-v0_behavior_attempt1.footprint.json",
+          "footprint_path": "/home/jash/baselines/state/footprints/qgpo_humanoid-medium-v0_behavior_attempt1.footprint.json",
           "n_samples": 48,
           "vram_proc_peak_gb": 3.615234375,
           "vram_proc_steady_gb": 3.615234375,
-          "gpu_util_steady_pct": 13,
-          "gpu_util_peak_pct": 27,
-          "rss_peak_gb": 6.176910400390625,
-          "rss_steady_gb": 3.7618865966796875
+          "gpu_util_steady_pct": 9,
+          "gpu_util_peak_pct": 26,
+          "rss_peak_gb": 7.537837982177734,
+          "rss_steady_gb": 3.874195098876953
         }
       ],
-      "last_log": "/home/jash/diffusion-rl-research-02/baselines/logs/smoke/qgpo_humanoid-medium-v0_behavior_attempt1.log",
+      "last_log": "/home/jash/baselines/logs/smoke/qgpo_humanoid-medium-v0_behavior_attempt1.log",
       "notes": "saw loss-like metric in attempt 1 (rc=0)"
     }
   },

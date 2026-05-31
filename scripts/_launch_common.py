@@ -75,6 +75,16 @@ def install_wandb_stub():
     wandb_stub.install()
 
 
+def install_tb_shim():
+    """Redirect torch.utils.tensorboard.SummaryWriter scalars to MLflow.
+
+    For repos (QGPO/CEP, Diffusion-QL) that log via TensorBoard rather than
+    wandb. Call after install_wandb_stub(), before the repo import runs.
+    """
+    from compat_utils import tb_shim
+    tb_shim.install()
+
+
 def mlflow_start(algo, env, dataset, seed, stage, repo_url, repo_path,
                  method_family, minari_id, smoke=False, extra_config=None,
                  extra_tags=None):
@@ -89,7 +99,22 @@ def mlflow_start(algo, env, dataset, seed, stage, repo_url, repo_path,
     }
     if extra_config:
         cfg.update(extra_config)
-    return start_run(algo, env, dataset, seed, stage, cfg, extra_tags=extra_tags)
+    # Log the normalization reference scores so every normalized score is
+    # losslessly invertible to raw later (and re-normalizable to D4RL refs).
+    # Also hand them to the metric shims so they emit `raw_return` alongside
+    # `d4rl_normalized_score` for every method.
+    tags = dict(extra_tags or {})
+    try:
+        from compat_utils.env_factory import _minari_ref_scores
+        ref_min, ref_max = _minari_ref_scores(f"{env}-{dataset}-v0")
+        tags.update({"ref_min": ref_min, "ref_max": ref_max,
+                     "ref_source": "minari_expert_mean", "norm_scheme": "minari_v0"})
+        from compat_utils import wandb_stub, tb_shim
+        wandb_stub.set_refs(ref_min, ref_max)
+        tb_shim.set_refs(ref_min, ref_max)
+    except Exception:
+        pass
+    return start_run(algo, env, dataset, seed, stage, cfg, extra_tags=tags)
 
 
 class TimeoutSentinel(Exception):

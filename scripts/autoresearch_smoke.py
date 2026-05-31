@@ -94,15 +94,28 @@ def _has_mlflow_metrics(algo: str, env: str, stage: str, since_seconds: int = 18
             if exp is None:
                 return False
             now_ms = int(time.time() * 1000)
-            # Two-phase filter: (a) algo+env+stage only, (b) verify smoke=True
-            # in Python. This is more permissive than a single AND'd filter
-            # in case the smoke tag is missing on partial writes.
+            # The launchers tag `env` with the *base* env (e.g. "halfcheetah")
+            # and `dataset` separately (e.g. "medium"), not the full d4rl name
+            # ("halfcheetah-medium-v0") that this function receives. Querying
+            # tags.env against the full name matches nothing, so a method whose
+            # stdout has no textual loss marker (e.g. DT, which only emits tqdm
+            # bars) gets a false red despite logging real metrics. Derive the
+            # base env + dataset so the search matches the actual tag scheme.
+            m = re.match(r"(?P<base>[a-z0-9]+)-(?P<ds>[a-z0-9-]+?)(?:-v\d+)?$", env)
+            base_env = m.group("base") if m else env
+            dataset = m.group("ds") if m else None
+            # Two-phase filter: (a) algo+env(+dataset)+stage, (b) verify smoke
+            # in Python. More permissive than a single AND'd filter in case the
+            # smoke tag is missing on partial writes.
+            filter_string = (
+                f"tags.algo = '{algo}' AND tags.env = '{base_env}' "
+                f"AND tags.stage = '{stage}'"
+            )
+            if dataset:
+                filter_string += f" AND tags.dataset = '{dataset}'"
             runs = client.search_runs(
                 [exp.experiment_id],
-                filter_string=(
-                    f"tags.algo = '{algo}' AND tags.env = '{env}' "
-                    f"AND tags.stage = '{stage}'"
-                ),
+                filter_string=filter_string,
                 max_results=20,
             )
             for run in runs:

@@ -11,7 +11,8 @@ from pathlib import Path
 
 from _launch_common import (
     REPOS, parse_common_args, env_to_minari, split_env_dataset,
-    install_wandb_stub, mlflow_start, alarm_timeout, end_mlflow_run, TimeoutSentinel,
+    install_wandb_stub, install_tb_shim, mlflow_start, alarm_timeout,
+    end_mlflow_run, TimeoutSentinel,
 )
 
 QGPO_ROOT = REPOS / "CEP-energy-guided-diffusion" / "Offline_RL_2D"
@@ -40,6 +41,12 @@ def main() -> int:
     expid = f"{args.env_d4rl_name}{args.seed}reproduce"
 
     install_wandb_stub()
+    install_tb_shim()  # CEP logs via TensorBoard SummaryWriter -> forward to MLflow
+    if args.smoke:
+        # Smoke-only: cap the critic-update inner loop (default 10000/epoch never
+        # finishes inside the smoke window, so the eval path went untested).
+        # Matrix runs without --smoke -> env unset -> full 10000. See RUN_LOG.md.
+        os.environ["BASELINES_SMOKE_QGPO_ITERS"] = "50"
     run = mlflow_start(
         algo="qgpo", env=env, dataset=dataset, seed=args.seed, stage=args.stage,
         repo_url="https://github.com/thu-ml/CEP-energy-guided-diffusion",

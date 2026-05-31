@@ -15,15 +15,16 @@
         "bc"
       ],
       "est_hours": 0.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T20:02:19.196165+00:00",
+      "finished_at": "2026-05-22T22:53:16.797859+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
+      "rc": 0,
+      "attempts": 3,
       "pool": "default",
       "budget_vram_gb": 2.930078125,
-      "budget_ram_gb": 2.2873729705810546
+      "budget_ram_gb": 2.2873729705810546,
+      "notes": "reset on power-down shutdown"
     },
     {
       "key": "bc_halfcheetah-medium-v0_seed1_full",
@@ -38,15 +39,16 @@
         "bc"
       ],
       "est_hours": 0.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T20:02:19.201316+00:00",
+      "finished_at": "2026-05-22T22:53:16.800217+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
+      "rc": 0,
+      "attempts": 3,
       "pool": "default",
       "budget_vram_gb": 2.930078125,
-      "budget_ram_gb": 2.2873729705810546
+      "budget_ram_gb": 2.2873729705810546,
+      "notes": "reset on power-down shutdown"
     },
     {
       "key": "bc_halfcheetah-medium-v0_seed2_full",
@@ -61,15 +63,16 @@
         "bc"
       ],
       "est_hours": 0.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T20:02:19.205899+00:00",
+      "finished_at": "2026-05-22T22:53:16.820549+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
+      "rc": 0,
+      "attempts": 3,
       "pool": "default",
       "budget_vram_gb": 2.930078125,
-      "budget_ram_gb": 2.2873729705810546
+      "budget_ram_gb": 2.2873729705810546,
+      "notes": "reset on power-down shutdown"
     },
     {
       "key": "bc_halfcheetah-expert-v0_seed0_full",
@@ -84,15 +87,16 @@
         "bc"
       ],
       "est_hours": 0.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T20:02:19.210353+00:00",
+      "finished_at": "2026-05-22T22:53:16.823930+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
+      "rc": 0,
+      "attempts": 3,
       "pool": "default",
       "budget_vram_gb": 2.930078125,
-      "budget_ram_gb": 2.2873729705810546
+      "budget_ram_gb": 2.2873729705810546,
+      "notes": "reset on power-down shutdown"
     },
     {
       "key": "bc_halfcheetah-expert-v0_seed1_full",
@@ -107,15 +111,16 @@
         "bc"
       ],
       "est_hours": 0.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T20:02:19.214790+00:00",
+      "finished_at": "2026-05-22T22:53:16.825761+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
+      "rc": 0,
+      "attempts": 3,
       "pool": "default",
       "budget_vram_gb": 2.930078125,
-      "budget_ram_gb": 2.2873729705810546
+      "budget_ram_gb": 2.2873729705810546,
+      "notes": "reset on power-down shutdown"
     },
     {
       "key": "bc_halfcheetah-expert-v0_seed2_full",
@@ -130,15 +135,16 @@
         "bc"
       ],
       "est_hours": 0.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T20:02:19.219376+00:00",
+      "finished_at": "2026-05-22T22:53:16.827488+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
+      "rc": 0,
+      "attempts": 3,
       "pool": "default",
       "budget_vram_gb": 2.930078125,
-      "budget_ram_gb": 2.2873729705810546
+      "budget_ram_gb": 2.2873729705810546,
+      "notes": "reset on power-down shutdown"
     },
     {
       "key": "bc_hopper-medium-v0_seed0_full",
@@ -153,13 +159,15 @@
         "bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T11:56:44.691798+00:00",
+      "finished_at": "2026-05-23T15:10:13.887969+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.930078125,
+      "budget_ram_gb": 2.2873729705810546
     },
     {
       "key": "bc_hopper-medium-v0_seed1_full",
@@ -174,13 +182,15 @@
         "bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T11:58:29.829320+00:00",
+      "finished_at": "2026-05-23T15:15:59.310461+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.930078125,
+      "budget_ram_gb": 2.2873729705810546
     },
     {
       "key": "bc_hopper-medium-v0_seed2_full",
@@ -195,13 +205,15 @@
         "bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T11:58:59.872648+00:00",
+      "finished_at": "2026-05-23T15:20:14.624442+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.930078125,
+      "budget_ram_gb": 2.2873729705810546
     },
     {
       "key": "bc_hopper-expert-v0_seed0_full",
@@ -216,13 +228,15 @@
         "bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T14:11:09.622795+00:00",
+      "finished_at": "2026-05-23T18:30:58.941058+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.930078125,
+      "budget_ram_gb": 2.2873729705810546
     },
     {
       "key": "bc_hopper-expert-v0_seed1_full",
@@ -237,13 +251,15 @@
         "bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T15:10:13.908665+00:00",
+      "finished_at": "2026-05-23T19:27:48.163571+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.930078125,
+      "budget_ram_gb": 2.2873729705810546
     },
     {
       "key": "bc_hopper-expert-v0_seed2_full",
@@ -258,13 +274,15 @@
         "bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T15:15:59.331683+00:00",
+      "finished_at": "2026-05-23T19:32:33.513848+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.930078125,
+      "budget_ram_gb": 2.2873729705810546
     },
     {
       "key": "bc_walker2d-medium-v0_seed0_full",
@@ -279,13 +297,15 @@
         "bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T15:20:14.644840+00:00",
+      "finished_at": "2026-05-23T19:41:04.138004+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.930078125,
+      "budget_ram_gb": 2.2873729705810546
     },
     {
       "key": "bc_walker2d-medium-v0_seed1_full",
@@ -300,13 +320,15 @@
         "bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T18:28:28.757344+00:00",
+      "finished_at": "2026-05-23T22:47:47.982645+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.930078125,
+      "budget_ram_gb": 2.2873729705810546
     },
     {
       "key": "bc_walker2d-medium-v0_seed2_full",
@@ -321,13 +343,15 @@
         "bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T18:28:43.783830+00:00",
+      "finished_at": "2026-05-23T22:48:48.068657+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.930078125,
+      "budget_ram_gb": 2.2873729705810546
     },
     {
       "key": "bc_walker2d-expert-v0_seed0_full",
@@ -342,13 +366,15 @@
         "bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T18:28:58.810820+00:00",
+      "finished_at": "2026-05-23T22:44:47.757839+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.930078125,
+      "budget_ram_gb": 2.2873729705810546
     },
     {
       "key": "bc_walker2d-expert-v0_seed1_full",
@@ -363,13 +389,15 @@
         "bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T18:30:58.961238+00:00",
+      "finished_at": "2026-05-23T22:47:47.984813+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.930078125,
+      "budget_ram_gb": 2.2873729705810546
     },
     {
       "key": "bc_walker2d-expert-v0_seed2_full",
@@ -384,13 +412,15 @@
         "bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T19:27:48.185020+00:00",
+      "finished_at": "2026-05-24T00:13:09.331042+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.930078125,
+      "budget_ram_gb": 2.2873729705810546
     },
     {
       "key": "cql_halfcheetah-medium-v0_seed0_full",
@@ -405,15 +435,16 @@
         "cql"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T20:02:19.223958+00:00",
+      "finished_at": "2026-05-23T14:10:54.551690+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 4,
+      "rc": 0,
+      "attempts": 7,
       "pool": "default",
       "budget_vram_gb": 2.9757812500000003,
-      "budget_ram_gb": 2.8474643707275393
+      "budget_ram_gb": 2.8474643707275393,
+      "notes": "reset on power-down shutdown"
     },
     {
       "key": "cql_halfcheetah-medium-v0_seed1_full",
@@ -428,15 +459,16 @@
         "cql"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T20:02:19.228708+00:00",
+      "finished_at": "2026-05-23T14:11:09.603075+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 4,
+      "rc": 0,
+      "attempts": 7,
       "pool": "default",
       "budget_vram_gb": 2.9757812500000003,
-      "budget_ram_gb": 2.8474643707275393
+      "budget_ram_gb": 2.8474643707275393,
+      "notes": "reset on power-down shutdown"
     },
     {
       "key": "cql_halfcheetah-medium-v0_seed2_full",
@@ -451,15 +483,16 @@
         "cql"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T20:02:19.233333+00:00",
+      "finished_at": "2026-05-23T14:10:54.553820+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 3,
+      "rc": 0,
+      "attempts": 6,
       "pool": "default",
       "budget_vram_gb": 2.9757812500000003,
-      "budget_ram_gb": 2.8474643707275393
+      "budget_ram_gb": 2.8474643707275393,
+      "notes": "reset on power-down shutdown"
     },
     {
       "key": "cql_halfcheetah-expert-v0_seed0_full",
@@ -474,12 +507,12 @@
         "cql"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T22:53:16.846518+00:00",
+      "finished_at": "2026-05-23T18:28:43.763160+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 1,
+      "rc": 0,
+      "attempts": 2,
       "pool": "default",
       "budget_vram_gb": 2.9757812500000003,
       "budget_ram_gb": 2.8474643707275393
@@ -497,12 +530,12 @@
         "cql"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T22:53:16.851879+00:00",
+      "finished_at": "2026-05-23T18:28:28.737158+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 1,
+      "rc": 0,
+      "attempts": 2,
       "pool": "default",
       "budget_vram_gb": 2.9757812500000003,
       "budget_ram_gb": 2.8474643707275393
@@ -520,12 +553,12 @@
         "cql"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T22:53:16.856447+00:00",
+      "finished_at": "2026-05-23T18:28:58.790028+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 1,
+      "rc": 0,
+      "attempts": 2,
       "pool": "default",
       "budget_vram_gb": 2.9757812500000003,
       "budget_ram_gb": 2.8474643707275393
@@ -543,13 +576,15 @@
         "cql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T19:32:33.534557+00:00",
+      "finished_at": "2026-05-25T03:37:57.557939+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.9757812500000003,
+      "budget_ram_gb": 2.8474643707275393
     },
     {
       "key": "cql_hopper-medium-v0_seed1_full",
@@ -564,13 +599,15 @@
         "cql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T19:41:04.159044+00:00",
+      "finished_at": "2026-05-25T03:53:43.727948+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.9757812500000003,
+      "budget_ram_gb": 2.8474643707275393
     },
     {
       "key": "cql_hopper-medium-v0_seed2_full",
@@ -585,13 +622,15 @@
         "cql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T22:44:47.779242+00:00",
+      "finished_at": "2026-05-25T08:05:17.354248+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.9757812500000003,
+      "budget_ram_gb": 2.8474643707275393
     },
     {
       "key": "cql_hopper-expert-v0_seed0_full",
@@ -606,13 +645,15 @@
         "cql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T22:48:48.107649+00:00",
+      "finished_at": "2026-05-25T06:47:11.580943+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.9757812500000003,
+      "budget_ram_gb": 2.8474643707275393
     },
     {
       "key": "cql_hopper-expert-v0_seed1_full",
@@ -627,13 +668,15 @@
         "cql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-24T00:13:09.351711+00:00",
+      "finished_at": "2026-05-25T07:45:30.874666+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.9757812500000003,
+      "budget_ram_gb": 2.8474643707275393
     },
     {
       "key": "cql_hopper-expert-v0_seed2_full",
@@ -648,13 +691,15 @@
         "cql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T03:37:57.579080+00:00",
+      "finished_at": "2026-05-26T11:43:51.683003+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.9757812500000003,
+      "budget_ram_gb": 2.8474643707275393
     },
     {
       "key": "cql_walker2d-medium-v0_seed0_full",
@@ -669,13 +714,15 @@
         "cql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T03:53:43.748332+00:00",
+      "finished_at": "2026-05-26T13:28:44.654602+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.9757812500000003,
+      "budget_ram_gb": 2.8474643707275393
     },
     {
       "key": "cql_walker2d-medium-v0_seed1_full",
@@ -690,13 +737,15 @@
         "cql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T06:47:11.601969+00:00",
+      "finished_at": "2026-05-26T15:30:38.699003+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.9757812500000003,
+      "budget_ram_gb": 2.8474643707275393
     },
     {
       "key": "cql_walker2d-medium-v0_seed2_full",
@@ -711,13 +760,15 @@
         "cql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T07:45:30.895479+00:00",
+      "finished_at": "2026-05-26T16:18:42.269510+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.9757812500000003,
+      "budget_ram_gb": 2.8474643707275393
     },
     {
       "key": "cql_walker2d-expert-v0_seed0_full",
@@ -732,13 +783,15 @@
         "cql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T08:05:17.375266+00:00",
+      "finished_at": "2026-05-26T13:40:15.539744+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.9757812500000003,
+      "budget_ram_gb": 2.8474643707275393
     },
     {
       "key": "cql_walker2d-expert-v0_seed1_full",
@@ -753,13 +806,15 @@
         "cql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T11:43:51.703208+00:00",
+      "finished_at": "2026-05-27T04:20:36.378893+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.9757812500000003,
+      "budget_ram_gb": 2.8474643707275393
     },
     {
       "key": "cql_walker2d-expert-v0_seed2_full",
@@ -774,13 +829,15 @@
         "cql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T13:28:44.675401+00:00",
+      "finished_at": "2026-05-27T05:18:25.686470+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.9757812500000003,
+      "budget_ram_gb": 2.8474643707275393
     },
     {
       "key": "iql_halfcheetah-medium-v0_seed0_full",
@@ -795,12 +852,12 @@
         "iql"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T22:53:16.860927+00:00",
+      "finished_at": "2026-05-23T05:26:15.876742+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
+      "rc": 0,
+      "attempts": 1,
       "pool": "default",
       "budget_vram_gb": 2.93515625,
       "budget_ram_gb": 2.654163360595703
@@ -818,12 +875,12 @@
         "iql"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T22:53:16.865509+00:00",
+      "finished_at": "2026-05-23T05:24:00.697435+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
+      "rc": 0,
+      "attempts": 1,
       "pool": "default",
       "budget_vram_gb": 2.93515625,
       "budget_ram_gb": 2.654163360595703
@@ -841,12 +898,12 @@
         "iql"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T22:53:16.870469+00:00",
+      "finished_at": "2026-05-23T05:25:30.814921+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
+      "rc": 0,
+      "attempts": 1,
       "pool": "default",
       "budget_vram_gb": 2.93515625,
       "budget_ram_gb": 2.654163360595703
@@ -864,12 +921,12 @@
         "iql"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T05:24:00.717683+00:00",
+      "finished_at": "2026-05-23T11:55:14.512888+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 1,
+      "rc": 0,
+      "attempts": 2,
       "pool": "default",
       "budget_vram_gb": 2.93515625,
       "budget_ram_gb": 2.654163360595703
@@ -887,12 +944,12 @@
         "iql"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T05:25:30.835569+00:00",
+      "finished_at": "2026-05-23T11:58:29.808808+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 1,
+      "rc": 0,
+      "attempts": 2,
       "pool": "default",
       "budget_vram_gb": 2.93515625,
       "budget_ram_gb": 2.654163360595703
@@ -910,12 +967,12 @@
         "iql"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T05:26:15.897450+00:00",
+      "finished_at": "2026-05-23T11:58:59.852772+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 1,
+      "rc": 0,
+      "attempts": 2,
       "pool": "default",
       "budget_vram_gb": 2.93515625,
       "budget_ram_gb": 2.654163360595703
@@ -933,13 +990,15 @@
         "iql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T15:30:38.721948+00:00",
+      "finished_at": "2026-05-26T20:43:17.047272+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.654163360595703
     },
     {
       "key": "iql_hopper-medium-v0_seed1_full",
@@ -954,13 +1013,15 @@
         "iql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T16:18:42.318961+00:00",
+      "finished_at": "2026-05-26T21:24:50.178000+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.654163360595703
     },
     {
       "key": "iql_hopper-medium-v0_seed2_full",
@@ -975,13 +1036,15 @@
         "iql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T19:54:13.337788+00:00",
+      "finished_at": "2026-05-26T23:44:30.635209+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.654163360595703
     },
     {
       "key": "iql_hopper-expert-v0_seed0_full",
@@ -996,13 +1059,15 @@
         "iql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T19:54:13.345921+00:00",
+      "finished_at": "2026-05-26T23:50:31.087616+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.654163360595703
     },
     {
       "key": "iql_hopper-expert-v0_seed1_full",
@@ -1017,13 +1082,15 @@
         "iql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T20:43:17.067633+00:00",
+      "finished_at": "2026-05-27T00:28:18.879943+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.654163360595703
     },
     {
       "key": "iql_hopper-expert-v0_seed2_full",
@@ -1038,13 +1105,15 @@
         "iql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T21:06:48.826945+00:00",
+      "finished_at": "2026-05-27T00:50:20.472171+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.654163360595703
     },
     {
       "key": "iql_walker2d-medium-v0_seed0_full",
@@ -1059,13 +1128,15 @@
         "iql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T21:24:50.198689+00:00",
+      "finished_at": "2026-05-27T02:46:29.400903+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.654163360595703
     },
     {
       "key": "iql_walker2d-medium-v0_seed1_full",
@@ -1080,13 +1151,15 @@
         "iql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T22:02:38.013610+00:00",
+      "finished_at": "2026-05-27T03:16:01.642040+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.654163360595703
     },
     {
       "key": "iql_walker2d-medium-v0_seed2_full",
@@ -1101,13 +1174,15 @@
         "iql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T22:02:38.019747+00:00",
+      "finished_at": "2026-05-27T03:13:31.447022+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.654163360595703
     },
     {
       "key": "iql_walker2d-expert-v0_seed0_full",
@@ -1122,13 +1197,15 @@
         "iql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T23:44:30.655856+00:00",
+      "finished_at": "2026-05-27T04:20:51.405958+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.654163360595703
     },
     {
       "key": "iql_walker2d-expert-v0_seed1_full",
@@ -1143,13 +1220,15 @@
         "iql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T23:50:31.107610+00:00",
+      "finished_at": "2026-05-27T03:51:19.207555+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.654163360595703
     },
     {
       "key": "iql_walker2d-expert-v0_seed2_full",
@@ -1164,13 +1243,15 @@
         "iql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T00:28:18.900829+00:00",
+      "finished_at": "2026-05-27T04:55:54.016997+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.654163360595703
     },
     {
       "key": "td3bc_halfcheetah-medium-v0_seed0_full",
@@ -1185,13 +1266,16 @@
         "td3bc"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-23T11:55:14.533590+00:00",
+      "finished_at": "2026-05-23T11:55:29.539402+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_halfcheetah-medium-v0_seed1_full",
@@ -1206,13 +1290,16 @@
         "td3bc"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-23T11:55:29.559757+00:00",
+      "finished_at": "2026-05-23T11:55:44.565690+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_halfcheetah-medium-v0_seed2_full",
@@ -1227,13 +1314,16 @@
         "td3bc"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-23T11:55:44.586609+00:00",
+      "finished_at": "2026-05-23T11:55:59.592555+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_halfcheetah-expert-v0_seed0_full",
@@ -1248,13 +1338,16 @@
         "td3bc"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-23T11:55:59.612676+00:00",
+      "finished_at": "2026-05-23T11:56:14.619033+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_halfcheetah-expert-v0_seed1_full",
@@ -1269,13 +1362,16 @@
         "td3bc"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-23T11:56:14.638761+00:00",
+      "finished_at": "2026-05-23T11:56:29.645348+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_halfcheetah-expert-v0_seed2_full",
@@ -1290,13 +1386,16 @@
         "td3bc"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-23T11:56:29.665661+00:00",
+      "finished_at": "2026-05-23T11:56:44.671293+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_hopper-medium-v0_seed0_full",
@@ -1311,13 +1410,16 @@
         "td3bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-27T00:50:20.492473+00:00",
+      "finished_at": "2026-05-27T00:50:35.498647+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_hopper-medium-v0_seed1_full",
@@ -1332,13 +1434,16 @@
         "td3bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-27T00:50:35.518983+00:00",
+      "finished_at": "2026-05-27T00:50:50.525012+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_hopper-medium-v0_seed2_full",
@@ -1353,13 +1458,16 @@
         "td3bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-27T00:50:50.545710+00:00",
+      "finished_at": "2026-05-27T00:51:05.552084+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_hopper-expert-v0_seed0_full",
@@ -1374,13 +1482,16 @@
         "td3bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-27T00:51:05.573799+00:00",
+      "finished_at": "2026-05-27T00:51:20.579811+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_hopper-expert-v0_seed1_full",
@@ -1395,13 +1506,16 @@
         "td3bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-27T00:51:20.600022+00:00",
+      "finished_at": "2026-05-27T00:51:35.606568+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_hopper-expert-v0_seed2_full",
@@ -1416,13 +1530,16 @@
         "td3bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-27T00:51:35.626813+00:00",
+      "finished_at": "2026-05-27T00:51:50.632912+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_walker2d-medium-v0_seed0_full",
@@ -1437,13 +1554,16 @@
         "td3bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-27T00:51:50.653207+00:00",
+      "finished_at": "2026-05-27T00:52:05.659756+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_walker2d-medium-v0_seed1_full",
@@ -1458,13 +1578,16 @@
         "td3bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-27T00:52:05.679721+00:00",
+      "finished_at": "2026-05-27T00:52:20.686700+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_walker2d-medium-v0_seed2_full",
@@ -1479,13 +1602,16 @@
         "td3bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-27T00:52:20.707716+00:00",
+      "finished_at": "2026-05-27T00:52:35.713828+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_walker2d-expert-v0_seed0_full",
@@ -1500,13 +1626,16 @@
         "td3bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-27T00:52:35.734152+00:00",
+      "finished_at": "2026-05-27T00:52:50.740854+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_walker2d-expert-v0_seed1_full",
@@ -1521,13 +1650,16 @@
         "td3bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-27T00:52:50.761799+00:00",
+      "finished_at": "2026-05-27T00:53:05.767699+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "td3bc_walker2d-expert-v0_seed2_full",
@@ -1542,13 +1674,16 @@
         "td3bc"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "skipped",
+      "started_at": "2026-05-27T00:53:05.787686+00:00",
+      "finished_at": "2026-05-27T00:53:20.794606+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 64,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 2.93515625,
+      "budget_ram_gb": 2.429376983642578,
+      "notes": "launcher rc=64 (explicit skip)"
     },
     {
       "key": "dt_halfcheetah-medium-v0_seed0_full",
@@ -1563,13 +1698,15 @@
         "dt"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T16:27:01.030248+00:00",
+      "finished_at": "2026-05-27T20:46:23.275857+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_halfcheetah-medium-v0_seed1_full",
@@ -1584,13 +1721,15 @@
         "dt"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T19:22:15.866846+00:00",
+      "finished_at": "2026-05-28T00:19:13.041424+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_halfcheetah-medium-v0_seed2_full",
@@ -1605,13 +1744,15 @@
         "dt"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T20:46:23.303197+00:00",
+      "finished_at": "2026-05-28T01:31:34.663469+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_halfcheetah-expert-v0_seed0_full",
@@ -1626,13 +1767,15 @@
         "dt"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T00:19:13.065496+00:00",
+      "finished_at": "2026-05-28T04:58:38.304563+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_halfcheetah-expert-v0_seed1_full",
@@ -1647,13 +1790,15 @@
         "dt"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T01:31:34.686543+00:00",
+      "finished_at": "2026-05-28T06:10:59.817561+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_halfcheetah-expert-v0_seed2_full",
@@ -1668,13 +1813,15 @@
         "dt"
       ],
       "est_hours": 1.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T04:58:38.327694+00:00",
+      "finished_at": "2026-05-28T09:26:29.427275+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_hopper-medium-v0_seed0_full",
@@ -1689,13 +1836,15 @@
         "dt"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T12:06:42.036517+00:00",
+      "finished_at": "2026-05-29T15:45:59.802048+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_hopper-medium-v0_seed1_full",
@@ -1710,13 +1859,15 @@
         "dt"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T15:45:59.822092+00:00",
+      "finished_at": "2026-05-29T19:19:02.201434+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_hopper-medium-v0_seed2_full",
@@ -1731,13 +1882,15 @@
         "dt"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T19:19:02.224242+00:00",
+      "finished_at": "2026-05-29T22:33:49.013463+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_hopper-expert-v0_seed0_full",
@@ -1752,13 +1905,15 @@
         "dt"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T22:33:49.038118+00:00",
+      "finished_at": "2026-05-30T02:00:36.045398+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_hopper-expert-v0_seed1_full",
@@ -1773,13 +1928,15 @@
         "dt"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-30T02:00:36.065264+00:00",
+      "finished_at": "2026-05-30T05:38:23.678392+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_hopper-expert-v0_seed2_full",
@@ -1794,13 +1951,15 @@
         "dt"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-30T05:38:23.698056+00:00",
+      "finished_at": "2026-05-30T09:02:10.624359+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_walker2d-medium-v0_seed0_full",
@@ -1815,13 +1974,15 @@
         "dt"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-30T09:02:10.644622+00:00",
+      "finished_at": "2026-05-30T13:02:17.519009+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_walker2d-medium-v0_seed1_full",
@@ -1836,13 +1997,15 @@
         "dt"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-30T10:07:46.492773+00:00",
+      "finished_at": "2026-05-30T14:45:11.927428+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_walker2d-medium-v0_seed2_full",
@@ -1857,13 +2020,15 @@
         "dt"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-30T13:02:17.542957+00:00",
+      "finished_at": "2026-05-30T17:39:12.641107+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_walker2d-expert-v0_seed0_full",
@@ -1878,13 +2043,15 @@
         "dt"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-30T14:45:11.951115+00:00",
+      "finished_at": "2026-05-30T19:23:06.957484+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_walker2d-expert-v0_seed1_full",
@@ -1899,13 +2066,15 @@
         "dt"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-30T17:39:12.664692+00:00",
+      "finished_at": "2026-05-30T22:15:52.479321+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dt_walker2d-expert-v0_seed2_full",
@@ -1920,427 +2089,15 @@
         "dt"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-30T19:23:06.978133+00:00",
+      "finished_at": "2026-05-30T23:59:30.043116+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
-    },
-    {
-      "key": "diffuser_halfcheetah-medium-v0_seed0_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "halfcheetah-medium-v0",
-      "dataset": "medium",
-      "seed": 0,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 10.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
-    },
-    {
-      "key": "diffuser_halfcheetah-medium-v0_seed1_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "halfcheetah-medium-v0",
-      "dataset": "medium",
-      "seed": 1,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 10.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
-    },
-    {
-      "key": "diffuser_halfcheetah-medium-v0_seed2_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "halfcheetah-medium-v0",
-      "dataset": "medium",
-      "seed": 2,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 10.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
-    },
-    {
-      "key": "diffuser_halfcheetah-expert-v0_seed0_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "halfcheetah-expert-v0",
-      "dataset": "expert",
-      "seed": 0,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 10.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
-    },
-    {
-      "key": "diffuser_halfcheetah-expert-v0_seed1_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "halfcheetah-expert-v0",
-      "dataset": "expert",
-      "seed": 1,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 10.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
-    },
-    {
-      "key": "diffuser_halfcheetah-expert-v0_seed2_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "halfcheetah-expert-v0",
-      "dataset": "expert",
-      "seed": 2,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 10.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
-    },
-    {
-      "key": "diffuser_hopper-medium-v0_seed0_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "hopper-medium-v0",
-      "dataset": "medium",
-      "seed": 0,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default",
-      "budget_vram_gb": 0.9623046875,
-      "budget_ram_gb": 0.5,
-      "notes": "rc=1"
-    },
-    {
-      "key": "diffuser_hopper-medium-v0_seed1_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "hopper-medium-v0",
-      "dataset": "medium",
-      "seed": 1,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
+      "rc": 0,
       "attempts": 1,
       "pool": "default",
-      "budget_vram_gb": 0.9623046875,
-      "budget_ram_gb": 0.5,
-      "notes": "rc=1"
-    },
-    {
-      "key": "diffuser_hopper-medium-v0_seed2_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "hopper-medium-v0",
-      "dataset": "medium",
-      "seed": 2,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 5.0,
-      "status": "pending",
-      "started_at": "2026-05-19T16:02:13.638491+00:00",
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default",
-      "budget_vram_gb": 0.9623046875,
-      "budget_ram_gb": 0.5,
-      "notes": "rc=1"
-    },
-    {
-      "key": "diffuser_hopper-expert-v0_seed0_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "hopper-expert-v0",
-      "dataset": "expert",
-      "seed": 0,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 5.0,
-      "status": "pending",
-      "started_at": "2026-05-19T16:02:29.347397+00:00",
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default",
-      "budget_vram_gb": 0.9623046875,
-      "budget_ram_gb": 0.5,
-      "notes": "rc=1"
-    },
-    {
-      "key": "diffuser_hopper-expert-v0_seed1_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "hopper-expert-v0",
-      "dataset": "expert",
-      "seed": 1,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 5.0,
-      "status": "pending",
-      "started_at": "2026-05-19T16:02:44.917495+00:00",
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default",
-      "budget_vram_gb": 0.9623046875,
-      "budget_ram_gb": 0.5,
-      "notes": "rc=1"
-    },
-    {
-      "key": "diffuser_hopper-expert-v0_seed2_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "hopper-expert-v0",
-      "dataset": "expert",
-      "seed": 2,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 5.0,
-      "status": "pending",
-      "started_at": "2026-05-19T16:03:00.578298+00:00",
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default",
-      "budget_vram_gb": 0.9623046875,
-      "budget_ram_gb": 0.5,
-      "notes": "rc=1"
-    },
-    {
-      "key": "diffuser_walker2d-medium-v0_seed0_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "walker2d-medium-v0",
-      "dataset": "medium",
-      "seed": 0,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 5.0,
-      "status": "pending",
-      "started_at": "2026-05-19T16:03:16.361464+00:00",
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default",
-      "budget_vram_gb": 0.9623046875,
-      "budget_ram_gb": 0.5,
-      "notes": "rc=1"
-    },
-    {
-      "key": "diffuser_walker2d-medium-v0_seed1_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "walker2d-medium-v0",
-      "dataset": "medium",
-      "seed": 1,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 5.0,
-      "status": "pending",
-      "started_at": "2026-05-19T16:03:31.920951+00:00",
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default",
-      "budget_vram_gb": 0.9623046875,
-      "budget_ram_gb": 0.5,
-      "notes": "rc=1"
-    },
-    {
-      "key": "diffuser_walker2d-medium-v0_seed2_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "walker2d-medium-v0",
-      "dataset": "medium",
-      "seed": 2,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 5.0,
-      "status": "pending",
-      "started_at": "2026-05-19T16:03:47.516306+00:00",
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default",
-      "budget_vram_gb": 0.9623046875,
-      "budget_ram_gb": 0.5,
-      "notes": "rc=1"
-    },
-    {
-      "key": "diffuser_walker2d-expert-v0_seed0_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "walker2d-expert-v0",
-      "dataset": "expert",
-      "seed": 0,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 5.0,
-      "status": "pending",
-      "started_at": "2026-05-19T16:04:03.185695+00:00",
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default",
-      "budget_vram_gb": 0.9623046875,
-      "budget_ram_gb": 0.5,
-      "notes": "rc=1"
-    },
-    {
-      "key": "diffuser_walker2d-expert-v0_seed1_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "walker2d-expert-v0",
-      "dataset": "expert",
-      "seed": 1,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 5.0,
-      "status": "pending",
-      "started_at": "2026-05-19T16:04:18.819626+00:00",
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default",
-      "budget_vram_gb": 0.9623046875,
-      "budget_ram_gb": 0.5,
-      "notes": "rc=1"
-    },
-    {
-      "key": "diffuser_walker2d-expert-v0_seed2_full",
-      "algo": "diffuser",
-      "env_d4rl_name": "walker2d-expert-v0",
-      "dataset": "expert",
-      "seed": 2,
-      "stage": "full",
-      "launcher": "run_diffuser.py",
-      "extra_args": [
-        "--algo",
-        "diffuser"
-      ],
-      "est_hours": 5.0,
-      "status": "pending",
-      "started_at": "2026-05-19T16:04:34.388701+00:00",
-      "finished_at": null,
-      "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default",
-      "budget_vram_gb": 0.9623046875,
-      "budget_ram_gb": 0.5,
-      "notes": "rc=1"
+      "budget_vram_gb": 10.99921875,
+      "budget_ram_gb": 6.801384735107422
     },
     {
       "key": "dql_halfcheetah-medium-v0_seed0_full",
@@ -2355,13 +2112,15 @@
         "dql"
       ],
       "est_hours": 6.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T07:06:43.054329+00:00",
+      "finished_at": "2026-05-26T02:06:08.097390+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_halfcheetah-medium-v0_seed1_full",
@@ -2376,13 +2135,15 @@
         "dql"
       ],
       "est_hours": 6.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T10:45:59.586830+00:00",
+      "finished_at": "2026-05-26T05:46:39.732213+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_halfcheetah-medium-v0_seed2_full",
@@ -2397,13 +2158,15 @@
         "dql"
       ],
       "est_hours": 6.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T17:41:30.532231+00:00",
+      "finished_at": "2026-05-26T12:34:55.564936+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_halfcheetah-expert-v0_seed0_full",
@@ -2418,13 +2181,15 @@
         "dql"
       ],
       "est_hours": 6.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T18:42:50.009744+00:00",
+      "finished_at": "2026-05-26T13:29:14.699793+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_halfcheetah-expert-v0_seed1_full",
@@ -2439,13 +2204,15 @@
         "dql"
       ],
       "est_hours": 6.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T02:06:08.119416+00:00",
+      "finished_at": "2026-05-26T19:29:41.413135+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_halfcheetah-expert-v0_seed2_full",
@@ -2460,13 +2227,15 @@
         "dql"
       ],
       "est_hours": 6.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T05:46:39.752954+00:00",
+      "finished_at": "2026-05-26T22:12:38.736582+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_hopper-medium-v0_seed0_full",
@@ -2481,15 +2250,16 @@
         "dql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-22T20:02:19.238287+00:00",
+      "finished_at": "2026-05-23T07:23:09.485919+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 1,
+      "rc": 0,
+      "attempts": 4,
       "pool": "default",
       "budget_vram_gb": 0.8734375,
-      "budget_ram_gb": 2.6837642669677737
+      "budget_ram_gb": 2.6837642669677737,
+      "notes": "reset on power-down shutdown"
     },
     {
       "key": "dql_hopper-medium-v0_seed1_full",
@@ -2504,13 +2274,15 @@
         "dql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T07:23:09.506514+00:00",
+      "finished_at": "2026-05-23T19:42:04.219004+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_hopper-medium-v0_seed2_full",
@@ -2525,13 +2297,15 @@
         "dql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T14:10:54.598125+00:00",
+      "finished_at": "2026-05-24T04:21:12.866979+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_hopper-expert-v0_seed0_full",
@@ -2546,13 +2320,15 @@
         "dql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T14:11:09.629656+00:00",
+      "finished_at": "2026-05-24T05:38:48.597571+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_hopper-expert-v0_seed1_full",
@@ -2567,13 +2343,15 @@
         "dql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T19:42:04.239835+00:00",
+      "finished_at": "2026-05-24T12:40:34.972089+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_hopper-expert-v0_seed2_full",
@@ -2588,13 +2366,15 @@
         "dql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T22:47:48.010326+00:00",
+      "finished_at": "2026-05-24T16:27:06.763337+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_walker2d-medium-v0_seed0_full",
@@ -2609,13 +2389,15 @@
         "dql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-24T04:21:12.887840+00:00",
+      "finished_at": "2026-05-24T22:58:36.506677+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_walker2d-medium-v0_seed1_full",
@@ -2630,13 +2412,15 @@
         "dql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-24T05:38:48.618564+00:00",
+      "finished_at": "2026-05-25T00:06:11.568498+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_walker2d-medium-v0_seed2_full",
@@ -2651,13 +2435,15 @@
         "dql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-24T12:40:34.992734+00:00",
+      "finished_at": "2026-05-25T07:06:43.033391+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_walker2d-expert-v0_seed0_full",
@@ -2672,13 +2458,15 @@
         "dql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-24T16:27:06.783694+00:00",
+      "finished_at": "2026-05-25T10:45:59.566130+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_walker2d-expert-v0_seed1_full",
@@ -2693,13 +2481,15 @@
         "dql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-24T22:58:36.528036+00:00",
+      "finished_at": "2026-05-25T17:41:30.491522+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "dql_walker2d-expert-v0_seed2_full",
@@ -2714,13 +2504,15 @@
         "dql"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T00:06:11.589323+00:00",
+      "finished_at": "2026-05-25T18:42:49.989660+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 0.8734375,
+      "budget_ram_gb": 2.6837642669677737
     },
     {
       "key": "eda_halfcheetah-medium-v0_seed0_behavior",
@@ -2737,13 +2529,15 @@
         "behavior"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T02:19:28.920509+00:00",
+      "finished_at": "2026-05-29T03:51:35.685828+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-medium-v0_seed0_critic",
@@ -2760,13 +2554,15 @@
         "critic"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T02:22:59.194169+00:00",
+      "finished_at": "2026-05-29T03:35:04.419857+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-medium-v0_seed0_finetune",
@@ -2783,13 +2579,15 @@
         "finetune"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T03:35:04.440547+00:00",
+      "finished_at": "2026-05-29T04:00:21.336089+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-medium-v0_seed1_behavior",
@@ -2806,13 +2604,15 @@
         "behavior"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T03:51:35.711802+00:00",
+      "finished_at": "2026-05-29T05:27:12.654302+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-medium-v0_seed1_critic",
@@ -2829,13 +2629,15 @@
         "critic"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T04:00:21.356523+00:00",
+      "finished_at": "2026-05-29T05:14:41.753322+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-medium-v0_seed1_finetune",
@@ -2852,13 +2654,15 @@
         "finetune"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T05:14:41.774038+00:00",
+      "finished_at": "2026-05-29T05:41:43.718680+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-medium-v0_seed2_behavior",
@@ -2875,13 +2679,15 @@
         "behavior"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T05:27:12.673377+00:00",
+      "finished_at": "2026-05-29T07:00:04.469756+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-medium-v0_seed2_critic",
@@ -2898,13 +2704,15 @@
         "critic"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T05:41:43.745599+00:00",
+      "finished_at": "2026-05-29T06:57:19.262477+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-medium-v0_seed2_finetune",
@@ -2921,13 +2729,15 @@
         "finetune"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T06:57:19.283106+00:00",
+      "finished_at": "2026-05-29T07:23:21.199520+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-expert-v0_seed0_behavior",
@@ -2944,13 +2754,15 @@
         "behavior"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T07:00:04.490978+00:00",
+      "finished_at": "2026-05-29T08:31:41.289636+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-expert-v0_seed0_critic",
@@ -2967,13 +2779,15 @@
         "critic"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T07:23:21.220628+00:00",
+      "finished_at": "2026-05-29T08:35:56.598693+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-expert-v0_seed0_finetune",
@@ -2990,13 +2804,15 @@
         "finetune"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T08:31:41.309297+00:00",
+      "finished_at": "2026-05-29T08:57:58.319990+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-expert-v0_seed1_behavior",
@@ -3013,13 +2829,15 @@
         "behavior"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T08:35:56.619718+00:00",
+      "finished_at": "2026-05-29T10:08:48.442561+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-expert-v0_seed1_critic",
@@ -3036,13 +2854,15 @@
         "critic"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T08:57:58.340681+00:00",
+      "finished_at": "2026-05-29T10:09:18.486836+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-expert-v0_seed1_finetune",
@@ -3059,13 +2879,15 @@
         "finetune"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T10:08:48.462492+00:00",
+      "finished_at": "2026-05-29T10:34:50.342575+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-expert-v0_seed2_behavior",
@@ -3082,13 +2904,15 @@
         "behavior"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T10:09:18.507532+00:00",
+      "finished_at": "2026-05-29T11:45:55.495281+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-expert-v0_seed2_critic",
@@ -3105,13 +2929,15 @@
         "critic"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T10:34:50.362769+00:00",
+      "finished_at": "2026-05-29T11:46:55.582659+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_halfcheetah-expert-v0_seed2_finetune",
@@ -3128,13 +2954,15 @@
         "finetune"
       ],
       "est_hours": 3.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T11:45:55.515022+00:00",
+      "finished_at": "2026-05-29T12:06:42.011685+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-medium-v0_seed0_behavior",
@@ -3151,13 +2979,15 @@
         "behavior"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T06:10:59.841169+00:00",
+      "finished_at": "2026-05-28T07:49:07.242465+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-medium-v0_seed0_critic",
@@ -3174,13 +3004,15 @@
         "critic"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T07:49:07.266525+00:00",
+      "finished_at": "2026-05-28T08:57:27.284903+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-medium-v0_seed0_finetune",
@@ -3197,13 +3029,15 @@
         "finetune"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T08:57:27.305622+00:00",
+      "finished_at": "2026-05-28T09:12:58.417359+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-medium-v0_seed1_behavior",
@@ -3220,13 +3054,15 @@
         "behavior"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T09:12:58.440818+00:00",
+      "finished_at": "2026-05-28T10:44:20.078471+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-medium-v0_seed1_critic",
@@ -3243,13 +3079,15 @@
         "critic"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T09:26:29.447325+00:00",
+      "finished_at": "2026-05-28T10:37:34.580677+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-medium-v0_seed1_finetune",
@@ -3266,13 +3104,15 @@
         "finetune"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T10:37:34.601861+00:00",
+      "finished_at": "2026-05-28T10:56:36.110929+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-medium-v0_seed2_behavior",
@@ -3289,13 +3129,15 @@
         "behavior"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T10:44:20.104925+00:00",
+      "finished_at": "2026-05-28T12:17:42.027166+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-medium-v0_seed2_critic",
@@ -3312,13 +3154,15 @@
         "critic"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T10:56:36.131265+00:00",
+      "finished_at": "2026-05-28T12:06:56.250371+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-medium-v0_seed2_finetune",
@@ -3335,13 +3179,15 @@
         "finetune"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T12:06:56.271860+00:00",
+      "finished_at": "2026-05-28T12:26:57.716160+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-expert-v0_seed0_behavior",
@@ -3358,13 +3204,15 @@
         "behavior"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T12:17:42.048737+00:00",
+      "finished_at": "2026-05-28T13:52:03.918618+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-expert-v0_seed0_critic",
@@ -3381,13 +3229,15 @@
         "critic"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T12:26:57.737117+00:00",
+      "finished_at": "2026-05-28T13:38:02.887816+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-expert-v0_seed0_finetune",
@@ -3404,13 +3254,15 @@
         "finetune"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T13:38:02.908557+00:00",
+      "finished_at": "2026-05-28T13:57:19.339836+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-expert-v0_seed1_behavior",
@@ -3427,13 +3279,15 @@
         "behavior"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T13:52:03.939881+00:00",
+      "finished_at": "2026-05-28T15:27:56.007186+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-expert-v0_seed1_critic",
@@ -3450,13 +3304,15 @@
         "critic"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T13:57:19.362644+00:00",
+      "finished_at": "2026-05-28T15:07:39.438828+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-expert-v0_seed1_finetune",
@@ -3473,13 +3329,15 @@
         "finetune"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T15:07:39.459494+00:00",
+      "finished_at": "2026-05-28T15:27:10.938313+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-expert-v0_seed2_behavior",
@@ -3496,13 +3354,15 @@
         "behavior"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T15:27:10.964486+00:00",
+      "finished_at": "2026-05-28T17:02:02.905772+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-expert-v0_seed2_critic",
@@ -3519,13 +3379,15 @@
         "critic"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T15:27:56.028071+00:00",
+      "finished_at": "2026-05-28T16:38:46.134275+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_hopper-expert-v0_seed2_finetune",
@@ -3542,13 +3404,15 @@
         "finetune"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T16:38:46.154647+00:00",
+      "finished_at": "2026-05-28T17:00:47.798597+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-medium-v0_seed0_behavior",
@@ -3565,13 +3429,15 @@
         "behavior"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T17:00:47.825481+00:00",
+      "finished_at": "2026-05-28T18:34:54.664740+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-medium-v0_seed0_critic",
@@ -3588,13 +3454,15 @@
         "critic"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T17:02:02.926424+00:00",
+      "finished_at": "2026-05-28T18:15:53.251504+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-medium-v0_seed0_finetune",
@@ -3611,13 +3479,15 @@
         "finetune"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T18:15:53.271609+00:00",
+      "finished_at": "2026-05-28T18:37:39.892739+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-medium-v0_seed1_behavior",
@@ -3634,13 +3504,15 @@
         "behavior"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T18:34:54.690706+00:00",
+      "finished_at": "2026-05-28T20:06:01.377538+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-medium-v0_seed1_critic",
@@ -3657,13 +3529,15 @@
         "critic"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T18:37:39.918675+00:00",
+      "finished_at": "2026-05-28T19:49:15.154344+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-medium-v0_seed1_finetune",
@@ -3680,13 +3554,15 @@
         "finetune"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T19:49:15.174590+00:00",
+      "finished_at": "2026-05-28T20:10:16.705392+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-medium-v0_seed2_behavior",
@@ -3703,13 +3579,15 @@
         "behavior"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T20:06:01.416899+00:00",
+      "finished_at": "2026-05-28T21:39:08.147388+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-medium-v0_seed2_critic",
@@ -3726,13 +3604,15 @@
         "critic"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T20:10:16.725250+00:00",
+      "finished_at": "2026-05-28T21:21:21.852733+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-medium-v0_seed2_finetune",
@@ -3749,13 +3629,15 @@
         "finetune"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T21:21:21.873425+00:00",
+      "finished_at": "2026-05-28T21:40:08.227584+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-expert-v0_seed0_behavior",
@@ -3772,13 +3654,15 @@
         "behavior"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T21:39:08.167666+00:00",
+      "finished_at": "2026-05-28T23:13:30.072465+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-expert-v0_seed0_critic",
@@ -3795,13 +3679,15 @@
         "critic"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T21:40:08.248016+00:00",
+      "finished_at": "2026-05-28T22:52:43.531738+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-expert-v0_seed0_finetune",
@@ -3818,13 +3704,15 @@
         "finetune"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T22:52:43.552736+00:00",
+      "finished_at": "2026-05-28T23:12:29.981959+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-expert-v0_seed1_behavior",
@@ -3841,13 +3729,15 @@
         "behavior"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T23:12:30.008615+00:00",
+      "finished_at": "2026-05-29T00:47:37.150136+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-expert-v0_seed1_critic",
@@ -3864,13 +3754,15 @@
         "critic"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T23:13:30.093462+00:00",
+      "finished_at": "2026-05-29T00:24:35.288984+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-expert-v0_seed1_finetune",
@@ -3887,13 +3779,15 @@
         "finetune"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T00:24:35.309762+00:00",
+      "finished_at": "2026-05-29T00:45:06.956765+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-expert-v0_seed2_behavior",
@@ -3910,13 +3804,15 @@
         "behavior"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T00:45:06.977500+00:00",
+      "finished_at": "2026-05-29T02:22:59.167906+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-expert-v0_seed2_critic",
@@ -3933,13 +3829,15 @@
         "critic"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T00:47:37.170713+00:00",
+      "finished_at": "2026-05-29T02:00:12.471396+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_walker2d-expert-v0_seed2_finetune",
@@ -3956,13 +3854,15 @@
         "finetune"
       ],
       "est_hours": 1.6666666666666667,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T02:00:12.511246+00:00",
+      "finished_at": "2026-05-29T02:19:28.893535+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 9.3869140625,
+      "budget_ram_gb": 4.853080749511719
     },
     {
       "key": "eda_humanoid-medium-v0_seed0_behavior",
@@ -3979,13 +3879,15 @@
         "behavior"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-30T22:15:52.502614+00:00",
+      "finished_at": "2026-05-30T23:54:14.661640+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-medium-v0_seed0_critic",
@@ -4002,13 +3904,15 @@
         "critic"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-30T23:54:14.684258+00:00",
+      "finished_at": "2026-05-31T01:01:49.506776+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-medium-v0_seed0_finetune",
@@ -4025,13 +3929,15 @@
         "finetune"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T01:01:49.538368+00:00",
+      "finished_at": "2026-05-31T01:12:50.305942+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-medium-v0_seed1_behavior",
@@ -4048,13 +3954,15 @@
         "behavior"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T01:12:50.334322+00:00",
+      "finished_at": "2026-05-31T02:18:25.122418+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-medium-v0_seed1_critic",
@@ -4071,13 +3979,15 @@
         "critic"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T02:18:25.150870+00:00",
+      "finished_at": "2026-05-31T03:29:45.884737+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-medium-v0_seed1_finetune",
@@ -4094,13 +4004,15 @@
         "finetune"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T03:29:45.912703+00:00",
+      "finished_at": "2026-05-31T03:40:31.661579+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-medium-v0_seed2_behavior",
@@ -4117,13 +4029,15 @@
         "behavior"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T03:40:31.687033+00:00",
+      "finished_at": "2026-05-31T04:49:36.673109+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-medium-v0_seed2_critic",
@@ -4140,13 +4054,15 @@
         "critic"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T04:49:36.697976+00:00",
+      "finished_at": "2026-05-31T06:00:42.603348+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-medium-v0_seed2_finetune",
@@ -4163,13 +4079,15 @@
         "finetune"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T06:00:42.631476+00:00",
+      "finished_at": "2026-05-31T06:11:28.379760+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-expert-v0_seed0_behavior",
@@ -4186,13 +4104,15 @@
         "behavior"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T06:11:28.407791+00:00",
+      "finished_at": "2026-05-31T07:19:03.223575+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-expert-v0_seed0_critic",
@@ -4209,13 +4129,15 @@
         "critic"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T07:19:03.250652+00:00",
+      "finished_at": "2026-05-31T08:29:54.030415+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-expert-v0_seed0_finetune",
@@ -4232,13 +4154,15 @@
         "finetune"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T08:29:54.057813+00:00",
+      "finished_at": "2026-05-31T08:40:24.996189+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-expert-v0_seed1_behavior",
@@ -4255,13 +4179,15 @@
         "behavior"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T08:40:25.022287+00:00",
+      "finished_at": "2026-05-31T09:47:59.817820+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-expert-v0_seed1_critic",
@@ -4278,13 +4204,15 @@
         "critic"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T09:47:59.843330+00:00",
+      "finished_at": "2026-05-31T10:55:04.343836+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-expert-v0_seed1_finetune",
@@ -4301,13 +4229,15 @@
         "finetune"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T10:55:04.371969+00:00",
+      "finished_at": "2026-05-31T11:06:20.158741+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-expert-v0_seed2_behavior",
@@ -4324,13 +4254,15 @@
         "behavior"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T11:06:20.186572+00:00",
+      "finished_at": "2026-05-31T12:12:24.848819+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-expert-v0_seed2_critic",
@@ -4347,13 +4279,15 @@
         "critic"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T12:12:24.876784+00:00",
+      "finished_at": "2026-05-31T13:23:00.707520+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "eda_humanoid-expert-v0_seed2_finetune",
@@ -4370,13 +4304,15 @@
         "finetune"
       ],
       "est_hours": 9.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-31T13:23:00.735315+00:00",
+      "finished_at": "2026-05-31T13:34:01.516934+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 16.896445312500003,
+      "budget_ram_gb": 8.735545349121095
     },
     {
       "key": "qgpo_halfcheetah-medium-v0_seed0_behavior",
@@ -4393,13 +4329,15 @@
         "behavior"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T02:46:29.421550+00:00",
+      "finished_at": "2026-05-27T11:02:51.837303+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_halfcheetah-medium-v0_seed0_critic",
@@ -4416,13 +4354,15 @@
         "critic"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T03:13:31.468128+00:00",
+      "finished_at": "2026-05-27T06:57:18.251383+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_halfcheetah-medium-v0_seed1_behavior",
@@ -4439,13 +4379,15 @@
         "behavior"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T03:51:19.227923+00:00",
+      "finished_at": "2026-05-27T12:16:57.395089+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_halfcheetah-medium-v0_seed1_critic",
@@ -4462,13 +4404,15 @@
         "critic"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T04:20:36.399653+00:00",
+      "finished_at": "2026-05-27T08:03:38.183980+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_halfcheetah-medium-v0_seed2_behavior",
@@ -4485,13 +4429,15 @@
         "behavior"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T04:55:54.037899+00:00",
+      "finished_at": "2026-05-27T13:21:02.131557+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_halfcheetah-medium-v0_seed2_critic",
@@ -4508,13 +4454,15 @@
         "critic"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T06:57:18.272317+00:00",
+      "finished_at": "2026-05-27T10:35:19.788009+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_halfcheetah-expert-v0_seed0_behavior",
@@ -4531,13 +4479,15 @@
         "behavior"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T08:03:38.226654+00:00",
+      "finished_at": "2026-05-27T16:27:01.010496+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_halfcheetah-expert-v0_seed0_critic",
@@ -4554,13 +4504,15 @@
         "critic"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T10:35:19.808755+00:00",
+      "finished_at": "2026-05-27T14:17:06.317716+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_halfcheetah-expert-v0_seed1_behavior",
@@ -4577,13 +4529,15 @@
         "behavior"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T11:02:51.877596+00:00",
+      "finished_at": "2026-05-27T19:22:15.838858+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_halfcheetah-expert-v0_seed1_critic",
@@ -4600,13 +4554,15 @@
         "critic"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T12:16:57.416160+00:00",
+      "finished_at": "2026-05-27T15:59:58.943265+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_halfcheetah-expert-v0_seed2_behavior",
@@ -4623,13 +4579,15 @@
         "behavior"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T13:21:02.153549+00:00",
+      "finished_at": "2026-05-27T21:37:42.853246+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_halfcheetah-expert-v0_seed2_critic",
@@ -4646,13 +4604,15 @@
         "critic"
       ],
       "est_hours": 5.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-27T14:17:06.337493+00:00",
+      "finished_at": "2026-05-27T18:17:25.105970+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_hopper-medium-v0_seed0_behavior",
@@ -4669,13 +4629,15 @@
         "behavior"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T14:10:54.592653+00:00",
+      "finished_at": "2026-05-23T22:24:16.295012+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_hopper-medium-v0_seed0_critic",
@@ -4692,13 +4654,15 @@
         "critic"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T22:24:16.315801+00:00",
+      "finished_at": "2026-05-24T03:24:38.739119+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_hopper-medium-v0_seed1_behavior",
@@ -4715,13 +4679,15 @@
         "behavior"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-23T22:47:48.004909+00:00",
+      "finished_at": "2026-05-24T07:12:25.537095+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_hopper-medium-v0_seed1_critic",
@@ -4738,13 +4704,15 @@
         "critic"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-24T03:24:38.759693+00:00",
+      "finished_at": "2026-05-24T08:59:18.622349+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_hopper-medium-v0_seed2_behavior",
@@ -4761,13 +4729,15 @@
         "behavior"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-24T07:12:25.558731+00:00",
+      "finished_at": "2026-05-24T15:42:03.488079+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_hopper-medium-v0_seed2_critic",
@@ -4784,13 +4754,15 @@
         "critic"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-24T08:59:18.642723+00:00",
+      "finished_at": "2026-05-24T14:24:42.723617+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_hopper-expert-v0_seed0_behavior",
@@ -4807,13 +4779,15 @@
         "behavior"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-24T14:24:42.744268+00:00",
+      "finished_at": "2026-05-24T22:59:51.607496+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_hopper-expert-v0_seed0_critic",
@@ -4830,13 +4804,15 @@
         "critic"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-24T15:42:03.509057+00:00",
+      "finished_at": "2026-05-24T19:11:49.172971+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_hopper-expert-v0_seed1_behavior",
@@ -4853,13 +4829,15 @@
         "behavior"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-24T19:11:49.193926+00:00",
+      "finished_at": "2026-05-25T03:41:42.846027+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_hopper-expert-v0_seed1_critic",
@@ -4876,13 +4854,15 @@
         "critic"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-24T22:59:51.630188+00:00",
+      "finished_at": "2026-05-25T04:05:29.611347+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_hopper-expert-v0_seed2_behavior",
@@ -4899,13 +4879,15 @@
         "behavior"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T03:41:42.867395+00:00",
+      "finished_at": "2026-05-25T12:17:06.454953+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_hopper-expert-v0_seed2_critic",
@@ -4922,13 +4904,15 @@
         "critic"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T04:05:29.631561+00:00",
+      "finished_at": "2026-05-25T07:33:14.970687+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_walker2d-medium-v0_seed0_behavior",
@@ -4945,13 +4929,15 @@
         "behavior"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T07:33:14.991427+00:00",
+      "finished_at": "2026-05-25T16:05:38.349528+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_walker2d-medium-v0_seed0_critic",
@@ -4968,13 +4954,15 @@
         "critic"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T12:17:06.475931+00:00",
+      "finished_at": "2026-05-25T17:58:31.778401+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_walker2d-medium-v0_seed1_behavior",
@@ -4991,13 +4979,15 @@
         "behavior"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T16:05:38.369684+00:00",
+      "finished_at": "2026-05-26T00:28:00.833949+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_walker2d-medium-v0_seed1_critic",
@@ -5014,13 +5004,15 @@
         "critic"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T17:58:31.798759+00:00",
+      "finished_at": "2026-05-25T23:36:41.989001+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_walker2d-medium-v0_seed2_behavior",
@@ -5037,13 +5029,15 @@
         "behavior"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-25T23:36:42.010067+00:00",
+      "finished_at": "2026-05-26T08:10:50.742473+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_walker2d-medium-v0_seed2_critic",
@@ -5060,13 +5054,15 @@
         "critic"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T00:28:00.854244+00:00",
+      "finished_at": "2026-05-26T03:57:16.366538+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_walker2d-expert-v0_seed0_behavior",
@@ -5083,13 +5079,15 @@
         "behavior"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T03:57:16.387990+00:00",
+      "finished_at": "2026-05-26T12:33:55.464816+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_walker2d-expert-v0_seed0_critic",
@@ -5106,13 +5104,15 @@
         "critic"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T08:10:50.762979+00:00",
+      "finished_at": "2026-05-26T13:17:58.865530+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_walker2d-expert-v0_seed1_behavior",
@@ -5129,13 +5129,15 @@
         "behavior"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T12:33:55.504544+00:00",
+      "finished_at": "2026-05-26T21:06:48.805880+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_walker2d-expert-v0_seed1_critic",
@@ -5152,13 +5154,15 @@
         "critic"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T13:17:58.886077+00:00",
+      "finished_at": "2026-05-26T16:18:42.273392+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_walker2d-expert-v0_seed2_behavior",
@@ -5175,13 +5179,15 @@
         "behavior"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T13:40:15.559724+00:00",
+      "finished_at": "2026-05-26T22:02:37.993158+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_walker2d-expert-v0_seed2_critic",
@@ -5198,13 +5204,15 @@
         "critic"
       ],
       "est_hours": 2.5,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-26T16:18:42.313026+00:00",
+      "finished_at": "2026-05-26T19:54:13.316245+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 4.6998046875,
+      "budget_ram_gb": 8.029983520507812
     },
     {
       "key": "qgpo_humanoid-medium-v0_seed0_behavior",
@@ -5221,13 +5229,15 @@
         "behavior"
       ],
       "est_hours": 15.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T09:26:29.453753+00:00",
+      "finished_at": "2026-05-28T16:28:00.359084+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 8.4596484375,
+      "budget_ram_gb": 14.453970336914063
     },
     {
       "key": "qgpo_humanoid-medium-v0_seed0_critic",
@@ -5244,13 +5254,15 @@
         "critic"
       ],
       "est_hours": 15.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T16:28:00.379692+00:00",
+      "finished_at": "2026-05-28T21:20:51.808812+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 8.4596484375,
+      "budget_ram_gb": 14.453970336914063
     },
     {
       "key": "qgpo_humanoid-medium-v0_seed1_behavior",
@@ -5267,13 +5279,15 @@
         "behavior"
       ],
       "est_hours": 15.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-28T21:20:51.829080+00:00",
+      "finished_at": "2026-05-29T04:19:37.742023+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 8.4596484375,
+      "budget_ram_gb": 14.453970336914063
     },
     {
       "key": "qgpo_humanoid-medium-v0_seed1_critic",
@@ -5290,13 +5304,15 @@
         "critic"
       ],
       "est_hours": 15.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T04:19:37.762338+00:00",
+      "finished_at": "2026-05-29T09:02:58.690532+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 8.4596484375,
+      "budget_ram_gb": 14.453970336914063
     },
     {
       "key": "qgpo_humanoid-medium-v0_seed2_behavior",
@@ -5313,13 +5329,15 @@
         "behavior"
       ],
       "est_hours": 15.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T09:02:58.711397+00:00",
+      "finished_at": "2026-05-29T16:18:17.497471+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 8.4596484375,
+      "budget_ram_gb": 14.453970336914063
     },
     {
       "key": "qgpo_humanoid-medium-v0_seed2_critic",
@@ -5336,13 +5354,15 @@
         "critic"
       ],
       "est_hours": 15.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T11:46:55.609388+00:00",
+      "finished_at": "2026-05-29T16:11:16.910850+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 8.4596484375,
+      "budget_ram_gb": 14.453970336914063
     },
     {
       "key": "qgpo_humanoid-expert-v0_seed0_behavior",
@@ -5359,13 +5379,15 @@
         "behavior"
       ],
       "est_hours": 15.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T16:11:16.938022+00:00",
+      "finished_at": "2026-05-29T23:58:26.351660+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 8.4596484375,
+      "budget_ram_gb": 14.453970336914063
     },
     {
       "key": "qgpo_humanoid-expert-v0_seed0_critic",
@@ -5382,13 +5404,15 @@
         "critic"
       ],
       "est_hours": 15.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T16:18:17.518507+00:00",
+      "finished_at": "2026-05-29T18:51:14.801646+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 8.4596484375,
+      "budget_ram_gb": 14.453970336914063
     },
     {
       "key": "qgpo_humanoid-expert-v0_seed1_behavior",
@@ -5405,13 +5429,15 @@
         "behavior"
       ],
       "est_hours": 15.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T18:51:14.829782+00:00",
+      "finished_at": "2026-05-30T02:37:39.015247+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 8.4596484375,
+      "budget_ram_gb": 14.453970336914063
     },
     {
       "key": "qgpo_humanoid-expert-v0_seed1_critic",
@@ -5428,13 +5454,15 @@
         "critic"
       ],
       "est_hours": 15.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-29T23:58:26.393270+00:00",
+      "finished_at": "2026-05-30T04:30:03.232942+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 8.4596484375,
+      "budget_ram_gb": 14.453970336914063
     },
     {
       "key": "qgpo_humanoid-expert-v0_seed2_behavior",
@@ -5451,13 +5479,15 @@
         "behavior"
       ],
       "est_hours": 15.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-30T02:37:39.041802+00:00",
+      "finished_at": "2026-05-30T10:07:46.465826+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 8.4596484375,
+      "budget_ram_gb": 14.453970336914063
     },
     {
       "key": "qgpo_humanoid-expert-v0_seed2_critic",
@@ -5474,13 +5504,15 @@
         "critic"
       ],
       "est_hours": 15.0,
-      "status": "pending",
-      "started_at": null,
-      "finished_at": null,
+      "status": "green",
+      "started_at": "2026-05-30T04:30:03.256562+00:00",
+      "finished_at": "2026-05-30T08:29:22.705058+00:00",
       "pid": null,
-      "rc": null,
-      "attempts": 0,
-      "pool": "default"
+      "rc": 0,
+      "attempts": 1,
+      "pool": "default",
+      "budget_vram_gb": 8.4596484375,
+      "budget_ram_gb": 14.453970336914063
     }
   ]
 }
